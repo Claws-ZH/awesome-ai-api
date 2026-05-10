@@ -2,7 +2,7 @@
   "$schema": "./gateways.schema.json",
   "updated": "2026-05-10",
   "updated_at": "2026-05-10 13:37 SGT",
-  "total": 207,
+  "total": 208,
   "gateways": [
     {
       "slug": "avian-io",
@@ -7459,6 +7459,48 @@
       "score": 5.6,
       "verdict": "needs_review",
       "last_verified": "2026-05-10"
+    },
+    {
+      "slug": "apikey-fun",
+      "name": "APIKEY.FUN",
+      "url": "https://apikeyfun.com",
+      "final_url": "https://apikeyfun.com",
+      "region": "cn",
+      "payment": [
+        "alipay",
+        "wechat"
+      ],
+      "models_signaled": [
+        "claude",
+        "gpt",
+        "gemini",
+        "openai",
+        "anthropic",
+        "deepseek"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": false,
+      "http_status": 0,
+      "took_ms": 0,
+      "has_api": true,
+      "probe": {
+        "status": 0,
+        "path": "/v1/models",
+        "hint": "to-be-probed"
+      },
+      "uptime": {
+        "window_days": 0,
+        "samples": 0,
+        "uptime_pct": 0.0,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": "AI API Gateway for China devs, one API key for 10+ models, 90% cheaper.",
+      "score": null,
+      "verdict": null,
+      "last_verified": null
     }
   ]
 }
