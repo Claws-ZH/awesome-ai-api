@@ -8,7 +8,7 @@
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
   <a href="./CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
   <!-- STATS:BEGIN -->
-  <img src="https://img.shields.io/badge/Gateways-205-blue" alt="Total">
+  <img src="https://img.shields.io/badge/Gateways-206-blue" alt="Total">
   <img src="https://img.shields.io/badge/API_verified-101-success" alt="API verified">
   <img src="https://img.shields.io/badge/Updated-daily_10:00_SGT-orange" alt="Updated">
   <!-- STATS:END -->
@@ -91,7 +91,7 @@ Auto-generated daily at **10:00 SGT (UTC+8)** from live probes. See [methodology
 <!-- LEADERBOARD:BEGIN -->
 _Last updated: 2026-05-20 14:06 (SGT)_
 
-**Total: 205 gateways** · 🔌 **101 with confirmed `/v1/models` endpoint** · 🟢 127 Verified · 🟡 7 Probable · 🧰 6 OSS · 🔍 65 Needs review
+**Total: 206 gateways** · 🔌 **101 with confirmed `/v1/models` endpoint** · 🟢 127 Verified · 🟡 7 Probable · 🧰 6 OSS · 🔍 65 Needs review
 
 **Top engines detected:** `new-api` × 35 · `one-api` × 10 · `dify` × 8 · `litellm` × 4 · `openrouter` × 2
 
