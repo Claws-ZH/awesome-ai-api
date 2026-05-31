@@ -91,12 +91,13 @@ Auto-generated daily at **10:00 SGT (UTC+8)** from live probes. See [methodology
 <!-- LEADERBOARD:BEGIN -->
 _Last updated: 2026-05-31 14:17 (SGT)_
 
-**Total: 203 gateways** · 🔌 **100 with confirmed `/v1/models` endpoint** · 🟢 126 Verified · 🟡 7 Probable · 🧰 6 OSS · 🔍 64 Needs review
+**Total: 204 gateways** · 🔌 **100 with confirmed `/v1/models` endpoint** · 🟢 126 Verified · 🟡 7 Probable · 🧰 6 OSS · 🔍 64 Needs review
 
 **Top engines detected:** `new-api` × 35 · `one-api` × 11 · `dify` × 7 · `litellm` × 4 · `openrouter` × 2
 
 | # | Gateway | Region | API | Models | Engine | Payment | Score | Latency | Tier |
 |---|---------|--------|-----|--------|--------|---------|-------|---------|------|
+| # | [CoderPlan](https://coderplan.ai) | cn | 🔌 | claude, gpt, gemini, deepseek, grok | — | alipay, wechat | 8.0 | — | 🟡 Probable |
 | 🥇 | [PackyAPI (PackyCode)](https://www.packyapi.com) | cn | 🔌 | claude, gpt, gemini | — | wechat | 9.9 | 164 ms | 🟢 Verified |
 | 🥈 | [AIHubMix](https://aihubmix.com) | global | 🔌 | **229 models** | openrouter | — | 9.9 | 456 ms | 🟢 Verified |
 | 🥉 | [Featherless](https://featherless.ai) | global | 🔌 | gpt, openai, deepseek | one-api | — | 9.8 | 143 ms | 🟢 Verified |

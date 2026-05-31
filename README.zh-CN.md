@@ -97,6 +97,7 @@ _Last updated: 2026-05-31 14:17 (SGT)_
 
 | # | 中转站 | 地区 | API | 模型 | 引擎 | 支付 | 评分 | 响应 | 分类 |
 |---|--------|------|-----|------|------|------|------|------|------|
+| # | [CoderPlan](https://coderplan.ai) | cn | 🔌 | claude, gpt, gemini, deepseek, grok | — | alipay, wechat | 8.0 | — | 🟡 可能 |
 | 🥇 | [PackyAPI (PackyCode)](https://www.packyapi.com) | cn | 🔌 | claude, gpt, gemini | — | wechat | 9.9 | 164 ms | 🟢 已验证 |
 | 🥈 | [AIHubMix](https://aihubmix.com) | global | 🔌 | **229 models** | openrouter | — | 9.9 | 456 ms | 🟢 已验证 |
 | 🥉 | [Featherless](https://featherless.ai) | global | 🔌 | gpt, openai, deepseek | one-api | — | 9.8 | 143 ms | 🟢 已验证 |
@@ -148,7 +149,7 @@ _Last updated: 2026-05-31 14:17 (SGT)_
 | 49 | [Xcode](https://xcode.best) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.6 | 1085 ms | 🟢 已验证 |
 | 50 | [dawclaudecode.com](https://dawclaudecode.com) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.6 | 1151 ms | 🟢 已验证 |
 
-> 仅展示 Top 50。完整 203 个榜单见 [`data/_leaderboard.zh.md`](data/_leaderboard.zh.md)。
+> 仅展示 Top 50。完整 204 个榜单见 [`data/_leaderboard.zh.md`](data/_leaderboard.zh.md)。
 
 <!-- LEADERBOARD_ZH:END -->
 

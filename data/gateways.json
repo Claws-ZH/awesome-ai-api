@@ -2,8 +2,49 @@
   "$schema": "./gateways.schema.json",
   "updated": "2026-05-31",
   "updated_at": "2026-05-31 14:17 SGT",
-  "total": 203,
+  "total": 204,
   "gateways": [
+    {
+      "slug": "coderplan-ai",
+      "name": "CoderPlan",
+      "url": "https://coderplan.ai",
+      "final_url": "https://coderplan.ai",
+      "region": "cn",
+      "payment": [
+        "alipay",
+        "wechat"
+      ],
+      "models_signaled": [
+        "claude",
+        "gpt",
+        "gemini",
+        "deepseek",
+        "grok"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 0,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-auth"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 0,
+        "uptime_pct": 0,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": "Chinese developer-focused LLM API gateway. OpenAI-compatible, Claude Code native. ~96% off Claude Opus pricing. Alipay/WeChat payment. HK/SG nodes.",
+      "score": 8.0,
+      "verdict": "likely_relay",
+      "last_verified": "2026-05-31"
+    },
     {
       "slug": "packyapi-com",
       "name": "PackyAPI (PackyCode)",
