@@ -2,8 +2,55 @@
   "$schema": "./gateways.schema.json",
   "updated": "2026-06-16",
   "updated_at": "2026-06-16 15:26 SGT",
-  "total": 203,
+  "total": 204,
   "gateways": [
+    {
+      "slug": "tokenmix-ai",
+      "name": "TokenMix",
+      "url": "https://tokenmix.ai",
+      "final_url": "https://tokenmix.ai",
+      "region": "global",
+      "payment": [
+        "card",
+        "alipay",
+        "wechat"
+      ],
+      "models_signaled": [
+        "claude",
+        "gpt",
+        "gemini",
+        "deepseek",
+        "qwen"
+      ],
+      "real_models_count": 171,
+      "real_models_sample": [
+        "claude-sonnet-4-6",
+        "gpt-5.4",
+        "gemini-2.5-flash",
+        "deepseek-chat"
+      ],
+      "engine": "openai-compat",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": null,
+      "has_api": true,
+      "probe": {
+        "status": null,
+        "path": "/v1/models",
+        "hint": "pending-probe"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": null,
+        "uptime_pct": null,
+        "streak_days": null
+      },
+      "upstream": null,
+      "note": "OpenAI-compatible aggregator; 171 models from 14 providers; supports Alipay/WeChat",
+      "score": null,
+      "verdict": "pending_review",
+      "last_verified": "2026-06-05"
+    },
     {
       "slug": "packyapi-com",
       "name": "PackyAPI (PackyCode)",
