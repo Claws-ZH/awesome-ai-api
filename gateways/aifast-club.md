@@ -51,9 +51,9 @@ Model support, latency and availability vary with the provider, route, account, 
 
 ## International payment
 
-International users can pay **only with cryptocurrency**. The current balance conversion is:
+International users can pay **only with cryptocurrency**. **1 AIFast balance dollar ("1 刀") = 0.07 USDC or 0.07 USDT.**
 
-- **1 AIFast balance dollar ("1 刀") = 0.07 USDC or 0.07 USDT**
+This is an AIFast balance-unit conversion, not a token market exchange rate or an official model price.
 
 Fiat payment methods are not available to international users. Check the AIFast console before payment because the supported network or deposit instructions can change.
 
