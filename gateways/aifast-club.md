@@ -49,6 +49,15 @@ curl https://www.aifast.club/v1/chat/completions \
 
 Model support, latency and availability vary with the provider, route, account, network and maintenance state. Test the exact model and request format before production use.
 
+## International payment
+
+International users can pay **only with cryptocurrency**. The current balance conversion is:
+
+- **1 USD-denominated balance unit = 0.07 USDC**
+- **1 USD-denominated balance unit = 0.07 USDT**
+
+Fiat payment methods are not available to international users. Check the AIFast console before payment because the supported network or deposit instructions can change.
+
 ## Notes | 说明
 
 - This entry does not publish a fixed model count because configuration entries do not equal currently available models.
