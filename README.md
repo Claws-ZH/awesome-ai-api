@@ -8,8 +8,8 @@
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
   <a href="./CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
   <!-- STATS:BEGIN -->
-  <img src="https://img.shields.io/badge/Gateways-194-blue" alt="Total">
-  <img src="https://img.shields.io/badge/API_verified-95-success" alt="API verified">
+  <img src="https://img.shields.io/badge/Gateways-183-blue" alt="Total">
+  <img src="https://img.shields.io/badge/API_verified-86-success" alt="API verified">
   <img src="https://img.shields.io/badge/Updated-daily_10:00_SGT-orange" alt="Updated">
   <!-- STATS:END -->
 </p>
@@ -89,66 +89,66 @@ Auto-generated daily at **10:00 SGT (UTC+8)** from live probes. See [methodology
 <summary><b>📊 Click to expand the full leaderboard</b></summary>
 
 <!-- LEADERBOARD:BEGIN -->
-_Last updated: 2026-08-12 12:06 (SGT)_
+_Last updated: 2026-08-13 12:13 (SGT)_
 
-**Total: 194 gateways** · 🔌 **95 with confirmed `/v1/models` endpoint** · 🟢 124 Verified · 🟡 6 Probable · 🧰 5 OSS · 🔍 59 Needs review
+**Total: 183 gateways** · 🔌 **86 with confirmed `/v1/models` endpoint** · 🟢 115 Verified · 🟡 6 Probable · 🧰 4 OSS · 🔍 58 Needs review
 
-**Top engines detected:** `new-api` × 37 · `one-api` × 16 · `litellm` × 4 · `dify` × 3 · `openrouter` × 2
+**Top engines detected:** `new-api` × 35 · `one-api` × 17 · `litellm` × 4 · `dify` × 3 · `portkey` × 2
 
 | # | Gateway | Region | API | Models | Engine | Payment | Score | Latency | Tier |
 |---|---------|--------|-----|--------|--------|---------|-------|---------|------|
-| 🥇 | [AIHubMix](https://aihubmix.com) | global | 🔌 | **386 models** | openrouter | — | 9.9 | 414 ms | 🟢 Verified |
-| 🥈 | [Avian](https://avian.io) | global | 🔌 | **11 models** | — | — | 9.9 | 487 ms | 🟢 Verified |
-| 🥉 | [BUZZ](https://buzzai.cc) | global | 🔌 | claude, gpt, gemini | one-api | card | 9.9 | 595 ms | 🟢 Verified |
-| 4 | [呆呆兽中转站｜Claude、Codex、GLM、Kimi 折扣 API](https://www.ddshub.cc) | cn | 🔌 | claude, gpt, anthropic | — | alipay, wechat, card | 9.9 | 869 ms | 🟢 Verified |
-| 5 | [APIMart (apimart.ai)](https://apimart.ai) | global | 🔌 | claude, gpt, gemini | one-api | alipay, wechat, card, crypto | 9.9 | 941 ms | 🟢 Verified |
-| 6 | [apipro.maynor1024.live](https://apipro.maynor1024.live) | global | 🔌 | claude, gpt, gemini | — | — | 9.8 | 124 ms | 🟢 Verified |
-| 7 | [api.vveai.com](https://api.vveai.com) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 171 ms | 🟢 Verified |
-| 8 | [ePhone AI](https://api.ephone.ai) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 202 ms | 🟢 Verified |
-| 9 | [Featherless](https://featherless.ai) | global | 🔌 | gpt, openai, deepseek | one-api | — | 9.8 | 203 ms | 🟢 Verified |
-| 10 | [TiMi CC](https://timicc.com) | cn | 🔌 | gpt, openai, qwen | — | wechat, card | 9.8 | 233 ms | 🟢 Verified |
-| 11 | [api.gpt.ge](https://api.gpt.ge) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 287 ms | 🟢 Verified |
-| 12 | [api.v36.cm](https://api.v36.cm) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 292 ms | 🟢 Verified |
-| 13 | [api.v3.cm](https://api.v3.cm) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 294 ms | 🟢 Verified |
-| 14 | [Yuegle API](https://api.yuegle.com) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 508 ms | 🟢 Verified |
-| 15 | [Doro AI](https://doro.lol) | cn | 🔌 | claude, gpt, gemini | new-api | — | 9.8 | 1558 ms | 🟢 Verified |
-| 16 | [便携AI聚合API](https://api.bianxieai.com) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.8 | 1852 ms | 🟢 Verified |
-| 17 | [ClaudeCN](https://claudecn.top) | cn | 🔌 | claude, gpt, gemini | — | — | 9.7 | 299 ms | 🟢 Verified |
-| 18 | [api.timebackward.com](https://api.timebackward.com) | cn | 🔌 | claude, gpt, gemini | — | — | 9.7 | 324 ms | 🟢 Verified |
-| 19 | [API Market (api.302ai.com)](https://api.302ai.com) | global | 🔌 | gpt, gemini, anthropic | — | — | 9.7 | 670 ms | 🟢 Verified |
-| 20 | [api-gptgod-work](https://api.gptgod.work) | global | 🔌 | **336 models** | — | — | 9.7 | 1013 ms | 🟢 Verified |
-| 21 | [API Market (api.302ai.cn)](https://api.302ai.cn) | global | 🔌 | gpt, gemini, anthropic | — | — | 9.7 | 1955 ms | 🟢 Verified |
-| 22 | [PackyAPI (PackyCode)](https://www.packyapi.com) | cn | 🔌 | claude, gpt, gemini | — | wechat | 9.6 | 125 ms | 🟢 Verified |
-| 23 | [new.yunai.link](https://new.yunai.link) | cn | 🔌 | claude, gemini, openai | — | — | 9.6 | 149 ms | 🟢 Verified |
-| 24 | [api.onechats.top](https://api.onechats.top) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.6 | 167 ms | 🟢 Verified |
-| 25 | [Aiberm](https://aiberm.com) | global | 🔌 | claude, gemini, openai | — | — | 9.6 | 176 ms | 🟢 Verified |
-| 26 | [api-deerapi-com](https://api.deerapi.com) | cn | 🔌 | claude, gemini, openai | — | — | 9.6 | 197 ms | 🟢 Verified |
-| 27 | [api-holdai-top](https://api.holdai.top) | cn | 🔌 | claude, gemini, openai | — | — | 9.6 | 212 ms | 🟢 Verified |
-| 28 | [api.soruxgpt.com](https://api.soruxgpt.com) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.6 | 212 ms | 🟢 Verified |
-| 29 | [api-chatfire-cn](https://api.chatfire.cn) | cn | 🔌 | claude, gemini, openai | — | — | 9.6 | 304 ms | 🟢 Verified |
-| 30 | [api.cursorai.art](https://api.cursorai.art) | global | 🔌 | claude, gpt, chatgpt | — | — | 9.6 | 387 ms | 🟢 Verified |
-| 31 | [柏拉图AI_API中转站 (api.bltcy.ai)](https://api.bltcy.ai) | cn | 🔌 | claude, gpt, openai | — | — | 9.6 | 505 ms | 🟢 Verified |
-| 32 | [DeerAPI (小鹿API)](https://deerapi.com) | cn | 🔌 | claude, gemini, openai | — | — | 9.6 | 539 ms | 🟢 Verified |
-| 33 | [apirouter.ai](https://apirouter.ai) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.6 | 664 ms | 🟢 Verified |
-| 34 | [api.aipaibox.com](https://api.aipaibox.com) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.6 | 699 ms | 🟢 Verified |
-| 35 | [LingxiCode](https://new.050602.xyz) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.6 | 1500 ms | 🟢 Verified |
-| 36 | [api-mnapi-com](https://api.mnapi.com) | cn | 🔌 | claude, gemini, openai | — | — | 9.6 | 1606 ms | 🟢 Verified |
-| 37 | [marting.pro](https://marting.pro) | global | 🔌 | gpt, chatgpt | — | — | 9.5 | 90 ms | 🟢 Verified |
-| 38 | [Tokencloud.ai](https://ai.tokencloud.ai) | global | 🔌 | — | — | wechat | 9.5 | 925 ms | 🟢 Verified |
-| 39 | [comfly](https://ai.comfly.chat) | global | 🔌 | gpt, openai | — | — | 9.5 | 1769 ms | 🟢 Verified |
-| 40 | [jeniya.cn](https://jeniya.cn) | cn | 🔌 | claude, gpt, chatgpt | — | — | 9.5 | 5416 ms | 🟢 Verified |
-| 41 | [LaoZhang API](https://api.laozhang.ai) | global | 🔌 | gpt | — | — | 9.4 | 91 ms | 🟢 Verified |
-| 42 | [api.aikeji.vip](https://api.aikeji.vip) | cn | 🔌 | openai | — | — | 9.4 | 129 ms | 🟢 Verified |
-| 43 | [GPTNB ONEAPI](https://oneapi.gptnb.ai) | cn | 🔌 | gpt | — | — | 9.4 | 219 ms | 🟢 Verified |
-| 44 | [API Management](https://sparkcode.top) | cn | 🔌 | openai | — | — | 9.4 | 360 ms | 🟢 Verified |
-| 45 | [zen-ai.top](https://zen-ai.top) | cn | 🔌 | openai | — | — | 9.4 | 438 ms | 🟢 Verified |
-| 46 | [Unified API](https://unifiedapi.cloud) | cn | 🔌 | openai | — | — | 9.4 | 569 ms | 🟢 Verified |
-| 47 | [AnyRouter · Universal AI Model Router](https://anyrouter.dev) | global | 🔌 | openai | — | — | 9.4 | 577 ms | 🟢 Verified |
-| 48 | [云雾 API (YunWu)](https://yunwu.ai) | cn | 🔌 | — | — | — | 9.3 | 81 ms | 🟢 Verified |
-| 49 | [无限API](https://infai.cc) | cn | 🔌 | — | new-api | — | 9.3 | 111 ms | 🟢 Verified |
-| 50 | [Ai实验室](https://www.openai-labs.com) | cn | 🔌 | — | — | — | 9.3 | 132 ms | 🟢 Verified |
+| 🥇 | [Avian](https://avian.io) | global | 🔌 | **11 models** | — | — | 9.9 | 134 ms | 🟢 Verified |
+| 🥈 | [AIHubMix](https://aihubmix.com) | global | 🔌 | **388 models** | one-api | — | 9.9 | 472 ms | 🟢 Verified |
+| 🥉 | [BUZZ](https://buzzai.cc) | global | 🔌 | claude, gpt, gemini | one-api | card | 9.9 | 807 ms | 🟢 Verified |
+| 4 | [APIMart (apimart.ai)](https://apimart.ai) | global | 🔌 | claude, gpt, gemini | one-api | alipay, wechat, card, crypto | 9.9 | 1204 ms | 🟢 Verified |
+| 5 | [呆呆兽中转站｜Claude、Codex、GLM、Kimi 折扣 API](https://www.ddshub.cc) | cn | 🔌 | claude, gpt, anthropic | — | alipay, wechat, card | 9.9 | 1232 ms | 🟢 Verified |
+| 6 | [Featherless](https://featherless.ai) | global | 🔌 | gpt, openai, deepseek | one-api | — | 9.8 | 135 ms | 🟢 Verified |
+| 7 | [api.vveai.com](https://api.vveai.com) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 235 ms | 🟢 Verified |
+| 8 | [api.gpt.ge](https://api.gpt.ge) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 295 ms | 🟢 Verified |
+| 9 | [api.v36.cm](https://api.v36.cm) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 300 ms | 🟢 Verified |
+| 10 | [api.v3.cm](https://api.v3.cm) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 314 ms | 🟢 Verified |
+| 11 | [ePhone AI](https://api.ephone.ai) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 343 ms | 🟢 Verified |
+| 12 | [apipro.maynor1024.live](https://apipro.maynor1024.live) | global | 🔌 | claude, gpt, gemini | — | — | 9.8 | 416 ms | 🟢 Verified |
+| 13 | [TiMi CC](https://timicc.com) | cn | 🔌 | gpt, openai, qwen | — | wechat, card | 9.8 | 489 ms | 🟢 Verified |
+| 14 | [Doro AI](https://doro.lol) | cn | 🔌 | claude, gpt, gemini | new-api | — | 9.8 | 1083 ms | 🟢 Verified |
+| 15 | [jeniya.cn](https://jeniya.cn) | cn | 🔌 | claude, gpt, chatgpt | — | — | 9.8 | 1493 ms | 🟢 Verified |
+| 16 | [便携AI聚合API](https://api.bianxieai.com) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.8 | 1510 ms | 🟢 Verified |
+| 17 | [api-gptgod-work](https://api.gptgod.work) | global | 🔌 | **336 models** | — | — | 9.7 | 600 ms | 🟢 Verified |
+| 18 | [api.timebackward.com](https://api.timebackward.com) | cn | 🔌 | claude, gpt, gemini | — | — | 9.7 | 636 ms | 🟢 Verified |
+| 19 | [API Market (api.302ai.com)](https://api.302ai.com) | global | 🔌 | gpt, gemini, anthropic | — | — | 9.7 | 955 ms | 🟢 Verified |
+| 20 | [ClaudeCN](https://claudecn.top) | cn | 🔌 | claude, gpt, gemini | — | — | 9.7 | 1032 ms | 🟢 Verified |
+| 21 | [API Market (api.302ai.cn)](https://api.302ai.cn) | global | 🔌 | gpt, gemini, anthropic | — | — | 9.7 | 2646 ms | 🟢 Verified |
+| 22 | [api.onechats.top](https://api.onechats.top) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.6 | 210 ms | 🟢 Verified |
+| 23 | [api.cursorai.art](https://api.cursorai.art) | global | 🔌 | claude, gpt, chatgpt | — | — | 9.6 | 253 ms | 🟢 Verified |
+| 24 | [apirouter.ai](https://apirouter.ai) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.6 | 310 ms | 🟢 Verified |
+| 25 | [api-deerapi-com](https://api.deerapi.com) | cn | 🔌 | claude, gemini, openai | — | — | 9.6 | 322 ms | 🟢 Verified |
+| 26 | [new.yunai.link](https://new.yunai.link) | cn | 🔌 | claude, gemini, openai | — | — | 9.6 | 323 ms | 🟢 Verified |
+| 27 | [api-chatfire-cn](https://api.chatfire.cn) | cn | 🔌 | claude, gemini, openai | — | — | 9.6 | 333 ms | 🟢 Verified |
+| 28 | [柏拉图AI_API中转站 (api.bltcy.ai)](https://api.bltcy.ai) | cn | 🔌 | claude, gpt, openai | — | — | 9.6 | 359 ms | 🟢 Verified |
+| 29 | [Aiberm](https://aiberm.com) | global | 🔌 | claude, gemini, openai | — | — | 9.6 | 389 ms | 🟢 Verified |
+| 30 | [LingxiCode](https://new.050602.xyz) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.6 | 425 ms | 🟢 Verified |
+| 31 | [PackyAPI (PackyCode)](https://www.packyapi.com) | cn | 🔌 | claude, gpt, gemini | — | wechat | 9.6 | 429 ms | 🟢 Verified |
+| 32 | [onetoken.one](https://onetoken.one) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.6 | 449 ms | 🟢 Verified |
+| 33 | [api.soruxgpt.com](https://api.soruxgpt.com) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.6 | 554 ms | 🟢 Verified |
+| 34 | [DeerAPI (小鹿API)](https://deerapi.com) | cn | 🔌 | claude, gemini, openai | — | — | 9.6 | 917 ms | 🟢 Verified |
+| 35 | [api.aipaibox.com](https://api.aipaibox.com) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.6 | 949 ms | 🟢 Verified |
+| 36 | [marting.pro](https://marting.pro) | global | 🔌 | gpt, chatgpt | — | — | 9.5 | 278 ms | 🟢 Verified |
+| 37 | [comfly](https://ai.comfly.chat) | global | 🔌 | gpt, openai | — | — | 9.5 | 1149 ms | 🟢 Verified |
+| 38 | [Tokencloud.ai](https://ai.tokencloud.ai) | global | 🔌 | — | — | wechat | 9.5 | 1809 ms | 🟢 Verified |
+| 39 | [API Management](https://sparkcode.top) | cn | 🔌 | openai | — | — | 9.4 | 92 ms | 🟢 Verified |
+| 40 | [AnyRouter · Universal AI Model Router](https://anyrouter.dev) | global | 🔌 | openai | — | — | 9.4 | 296 ms | 🟢 Verified |
+| 41 | [LaoZhang API](https://api.laozhang.ai) | global | 🔌 | gpt | — | — | 9.4 | 314 ms | 🟢 Verified |
+| 42 | [GPTNB ONEAPI](https://oneapi.gptnb.ai) | cn | 🔌 | gpt | — | — | 9.4 | 342 ms | 🟢 Verified |
+| 43 | [api.aikeji.vip](https://api.aikeji.vip) | cn | 🔌 | openai | — | — | 9.4 | 381 ms | 🟢 Verified |
+| 44 | [zen-ai.top](https://zen-ai.top) | cn | 🔌 | openai | — | — | 9.4 | 398 ms | 🟢 Verified |
+| 45 | [Unified API](https://unifiedapi.cloud) | cn | 🔌 | openai | — | — | 9.4 | 805 ms | 🟢 Verified |
+| 46 | [云雾 API (YunWu)](https://yunwu.ai) | cn | 🔌 | — | — | — | 9.3 | 129 ms | 🟢 Verified |
+| 47 | [chatapi.onechats.top](https://chatapi.onechats.top) | global | 🔌 | — | new-api | — | 9.3 | 142 ms | 🟢 Verified |
+| 48 | [api-featherless-ai](https://api.featherless.ai) | global | 🔌 | — | — | — | 9.3 | 147 ms | 🟢 Verified |
+| 49 | [api.ekan8.com](https://api.ekan8.com) | global | 🔌 | — | new-api | — | 9.3 | 155 ms | 🟢 Verified |
+| 50 | [api.ikuncode.cc](https://api.ikuncode.cc) | global | 🔌 | — | new-api | — | 9.3 | 177 ms | 🟢 Verified |
 
-> Top 50 shown. See [`data/_leaderboard.md`](data/_leaderboard.md) for the full list of 194 gateways.
+> Top 50 shown. See [`data/_leaderboard.md`](data/_leaderboard.md) for the full list of 183 gateways.
 
 <!-- LEADERBOARD:END -->
 
