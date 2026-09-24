@@ -9,7 +9,7 @@
   <a href="./CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
   <!-- STATS_ZH:BEGIN -->
   <img src="https://img.shields.io/badge/%E4%B8%AD%E8%BD%AC%E7%AB%99-189-blue" alt="中转站总数">
-  <img src="https://img.shields.io/badge/API%E5%B7%B2%E9%AA%8C%E8%AF%81-91-success" alt="API已验证">
+  <img src="https://img.shields.io/badge/API%E5%B7%B2%E9%AA%8C%E8%AF%81-90-success" alt="API已验证">
   <img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0-%E6%AF%8F%E6%97%A510%3A00_SGT-orange" alt="每日更新">
   <!-- STATS_ZH:END -->
 </p>
@@ -89,64 +89,64 @@
 <summary><b>📊 点击展开完整榜单</b></summary>
 
 <!-- LEADERBOARD_ZH:BEGIN -->
-_Last updated: 2026-09-23 15:21 (SGT)_
+_Last updated: 2026-09-24 15:12 (SGT)_
 
-**合计 189 个中转站** · 🔌 **91 个已确认 `/v1/models` 端点** · 🟢 已验证 119 · 🟡 疑似 6 · 🧰 开源 4 · 🔍 待复核 60
+**合计 189 个中转站** · 🔌 **90 个已确认 `/v1/models` 端点** · 🟢 已验证 119 · 🟡 疑似 6 · 🧰 开源 4 · 🔍 待复核 60
 
 **主流引擎分布：** `new-api` × 37 · `one-api` × 15 · `dify` × 3 · `openrouter` × 2 · `litellm` × 2
 
 | # | 中转站 | 地区 | API | 模型 | 引擎 | 支付 | 评分 | 响应 | 分类 |
 |---|--------|------|-----|------|------|------|------|------|------|
-| 🥇 | [BUZZ](https://buzzai.cc) | global | 🔌 | claude, gpt, gemini | one-api | card | 9.9 | 103 ms | 🟢 已验证 |
-| 🥈 | [PackyAPI (PackyCode)](https://www.packyapi.com) | cn | 🔌 | claude, gpt, gemini | — | wechat | 9.9 | 163 ms | 🟢 已验证 |
-| 🥉 | [呆呆兽中转站｜Claude、Codex、GLM、Kimi 折扣 API](https://www.ddshub.cc) | cn | 🔌 | claude, gpt, anthropic | — | alipay, wechat, card | 9.9 | 253 ms | 🟢 已验证 |
-| 4 | [AIHubMix](https://aihubmix.com) | global | 🔌 | **410 models** | one-api | — | 9.9 | 370 ms | 🟢 已验证 |
-| 5 | [Avian](https://avian.io) | global | 🔌 | **13 models** | — | — | 9.9 | 736 ms | 🟢 已验证 |
-| 6 | [APIMart (apimart.ai)](https://apimart.ai) | global | 🔌 | claude, gpt, gemini | one-api | wechat, card | 9.9 | 836 ms | 🟢 已验证 |
-| 7 | [api.v3.cm](https://api.v3.cm) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 74 ms | 🟢 已验证 |
-| 8 | [api.vveai.com](https://api.vveai.com) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 85 ms | 🟢 已验证 |
-| 9 | [TiMi CC](https://timicc.com) | cn | 🔌 | gpt, openai, qwen | — | wechat, card | 9.8 | 101 ms | 🟢 已验证 |
-| 10 | [Featherless](https://featherless.ai) | global | 🔌 | gpt, openai, deepseek | one-api | — | 9.8 | 113 ms | 🟢 已验证 |
-| 11 | [apipro.maynor1024.live](https://apipro.maynor1024.live) | global | 🔌 | claude, gpt, gemini | — | — | 9.8 | 125 ms | 🟢 已验证 |
-| 12 | [ePhone AI](https://api.ephone.ai) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 127 ms | 🟢 已验证 |
-| 13 | [api.v36.cm](https://api.v36.cm) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 128 ms | 🟢 已验证 |
-| 14 | [api.gpt.ge](https://api.gpt.ge) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 390 ms | 🟢 已验证 |
-| 15 | [AnyRouter · Universal AI Model Router](https://anyrouter.dev) | global | 🔌 | claude, gpt, gemini | openrouter | — | 9.8 | 566 ms | 🟢 已验证 |
-| 16 | [Yuegle API](https://api.yuegle.com) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 1015 ms | 🟢 已验证 |
-| 17 | [便携AI聚合API](https://api.bianxieai.com) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.8 | 1106 ms | 🟢 已验证 |
-| 18 | [jeniya.cn](https://jeniya.cn) | cn | 🔌 | claude, gpt, chatgpt | — | — | 9.8 | 1146 ms | 🟢 已验证 |
-| 19 | [ggwk1.online](https://www.ggwk1.online) | cn | 🔌 | claude, gpt, gemini | new-api | — | 9.7 | 293 ms | 🟢 已验证 |
-| 20 | [ClaudeCN](https://claudecn.top) | cn | 🔌 | claude, gpt, gemini | — | — | 9.7 | 357 ms | 🟢 已验证 |
-| 21 | [api-gptgod-work](https://api.gptgod.work) | global | 🔌 | **322 models** | — | — | 9.7 | 697 ms | 🟢 已验证 |
-| 22 | [new.yunai.link](https://new.yunai.link) | cn | 🔌 | claude, gemini, openai | — | — | 9.6 | 75 ms | 🟢 已验证 |
-| 23 | [Aiberm](https://aiberm.com) | global | 🔌 | claude, gemini, openai | — | — | 9.6 | 112 ms | 🟢 已验证 |
-| 24 | [api.soruxgpt.com](https://api.soruxgpt.com) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.6 | 115 ms | 🟢 已验证 |
-| 25 | [api-deerapi-com](https://api.deerapi.com) | cn | 🔌 | claude, gemini, openai | — | — | 9.6 | 139 ms | 🟢 已验证 |
-| 26 | [api.onechats.top](https://api.onechats.top) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.6 | 144 ms | 🟢 已验证 |
-| 27 | [柏拉图AI_API中转站 (api.bltcy.ai)](https://api.bltcy.ai) | cn | 🔌 | claude, gpt, openai | — | — | 9.6 | 248 ms | 🟢 已验证 |
-| 28 | [api.cursorai.art](https://api.cursorai.art) | global | 🔌 | claude, gpt, chatgpt | — | — | 9.6 | 263 ms | 🟢 已验证 |
-| 29 | [api-chatfire-cn](https://api.chatfire.cn) | cn | 🔌 | claude, gemini, openai | — | — | 9.6 | 487 ms | 🟢 已验证 |
-| 30 | [api-mnapi-com](https://api.mnapi.com) | cn | 🔌 | claude, gemini, openai | — | — | 9.6 | 579 ms | 🟢 已验证 |
-| 31 | [LingxiCode](https://new.050602.xyz) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.6 | 888 ms | 🟢 已验证 |
-| 32 | [api.aipaibox.com](https://api.aipaibox.com) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.6 | 973 ms | 🟢 已验证 |
-| 33 | [marting.pro](https://marting.pro) | global | 🔌 | gpt, chatgpt | — | — | 9.5 | 145 ms | 🟢 已验证 |
-| 34 | [Doro AI](https://doro.lol) | cn | 🔌 | claude, gpt, gemini | new-api | — | 9.5 | 161 ms | 🟢 已验证 |
-| 35 | [comfly](https://ai.comfly.chat) | global | 🔌 | gpt, openai | — | — | 9.5 | 794 ms | 🟢 已验证 |
-| 36 | [GPTNB ONEAPI](https://oneapi.gptnb.ai) | cn | 🔌 | gpt | — | — | 9.4 | 90 ms | 🟢 已验证 |
-| 37 | [钱多多 API (aigcbest.top)](https://aigcbest.top) | cn | 🔌 | openai | new-api | — | 9.4 | 113 ms | 🟢 已验证 |
-| 38 | [钱多多 API (api.ifopen.ai)](https://api.ifopen.ai) | cn | 🔌 | openai | new-api | — | 9.4 | 204 ms | 🟢 已验证 |
-| 39 | [钱多多 API (api.aigcbest.top)](https://api.aigcbest.top) | cn | 🔌 | openai | new-api | — | 9.4 | 215 ms | 🟢 已验证 |
-| 40 | [zen-ai.top](https://zen-ai.top) | cn | 🔌 | openai | — | — | 9.4 | 341 ms | 🟢 已验证 |
-| 41 | [API Management](https://sparkcode.top) | cn | 🔌 | openai | — | — | 9.4 | 352 ms | 🟢 已验证 |
-| 42 | [AI302 Api (api.302ai.com)](https://api.302ai.com) | global | 🔌 | gpt | — | — | 9.4 | 523 ms | 🟢 已验证 |
-| 43 | [Unified API](https://unifiedapi.cloud) | cn | 🔌 | openai | — | — | 9.4 | 628 ms | 🟢 已验证 |
-| 44 | [api-gptsapi-net](https://api.gptsapi.net) | global | 🔌 | — | — | — | 9.3 | 76 ms | 🟢 已验证 |
-| 45 | [api.gemai.cc](https://api.gemai.cc) | global | 🔌 | — | new-api | — | 9.3 | 80 ms | 🟢 已验证 |
-| 46 | [Ai实验室](https://www.openai-labs.com) | cn | 🔌 | — | — | — | 9.3 | 90 ms | 🟢 已验证 |
-| 47 | [api.ekan8.com](https://api.ekan8.com) | global | 🔌 | — | new-api | — | 9.3 | 96 ms | 🟢 已验证 |
-| 48 | [欢迎访问无限API](https://infai.cc) | cn | 🔌 | — | — | — | 9.3 | 97 ms | 🟢 已验证 |
-| 49 | [api.nekoapi.com](https://api.nekoapi.com) | global | 🔌 | — | new-api | — | 9.3 | 139 ms | 🟢 已验证 |
-| 50 | [OneToken](https://onetoken.one) | global | 🔌 | — | new-api | — | 9.3 | 141 ms | 🟢 已验证 |
+| 🥇 | [BUZZ](https://buzzai.cc) | cn | 🔌 | claude, gpt, gemini | one-api | card | 9.9 | 103 ms | 🟢 已验证 |
+| 🥈 | [Avian](https://avian.io) | global | 🔌 | **13 models** | — | — | 9.9 | 168 ms | 🟢 已验证 |
+| 🥉 | [PackyAPI (PackyCode)](https://www.packyapi.com) | cn | 🔌 | claude, gpt, gemini | — | wechat | 9.9 | 199 ms | 🟢 已验证 |
+| 4 | [AIHubMix](https://aihubmix.com) | global | 🔌 | **416 models** | one-api | — | 9.9 | 654 ms | 🟢 已验证 |
+| 5 | [呆呆兽中转站｜Claude、Codex、GLM、Kimi 折扣 API](https://www.ddshub.cc) | cn | 🔌 | claude, gpt, anthropic | — | alipay, wechat, card | 9.9 | 1101 ms | 🟢 已验证 |
+| 6 | [APIMart (apimart.ai)](https://apimart.ai) | global | 🔌 | claude, gpt, gemini | one-api | wechat, card | 9.9 | 1390 ms | 🟢 已验证 |
+| 7 | [Featherless](https://featherless.ai) | global | 🔌 | gpt, openai, deepseek | one-api | — | 9.8 | 157 ms | 🟢 已验证 |
+| 8 | [ePhone AI](https://api.ephone.ai) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 203 ms | 🟢 已验证 |
+| 9 | [apipro.maynor1024.live](https://apipro.maynor1024.live) | global | 🔌 | claude, gpt, gemini | — | — | 9.8 | 251 ms | 🟢 已验证 |
+| 10 | [api.vveai.com](https://api.vveai.com) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 292 ms | 🟢 已验证 |
+| 11 | [api.gpt.ge](https://api.gpt.ge) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 299 ms | 🟢 已验证 |
+| 12 | [api.v36.cm](https://api.v36.cm) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 322 ms | 🟢 已验证 |
+| 13 | [api.v3.cm](https://api.v3.cm) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 329 ms | 🟢 已验证 |
+| 14 | [Yuegle API](https://api.yuegle.com) | cn | 🔌 | claude, gpt, gemini | — | — | 9.8 | 392 ms | 🟢 已验证 |
+| 15 | [AnyRouter · Universal AI Model Router](https://anyrouter.dev) | global | 🔌 | claude, gpt, gemini | openrouter | — | 9.8 | 488 ms | 🟢 已验证 |
+| 16 | [TiMi CC](https://timicc.com) | cn | 🔌 | gpt, openai, qwen | — | wechat, card | 9.8 | 520 ms | 🟢 已验证 |
+| 17 | [jeniya.cn](https://jeniya.cn) | cn | 🔌 | claude, gpt, chatgpt | — | — | 9.8 | 1486 ms | 🟢 已验证 |
+| 18 | [ggwk1.online](https://www.ggwk1.online) | cn | 🔌 | claude, gpt, gemini | new-api | — | 9.7 | 126 ms | 🟢 已验证 |
+| 19 | [api-gptgod-work](https://api.gptgod.work) | global | 🔌 | **322 models** | — | — | 9.7 | 626 ms | 🟢 已验证 |
+| 20 | [api-chatfire-cn](https://api.chatfire.cn) | cn | 🔌 | claude, gemini, openai | — | — | 9.6 | 128 ms | 🟢 已验证 |
+| 21 | [api.onechats.top](https://api.onechats.top) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.6 | 201 ms | 🟢 已验证 |
+| 22 | [new.yunai.link](https://new.yunai.link) | cn | 🔌 | claude, gemini, openai | — | — | 9.6 | 233 ms | 🟢 已验证 |
+| 23 | [api.cursorai.art](https://api.cursorai.art) | global | 🔌 | claude, gpt, chatgpt | — | — | 9.6 | 254 ms | 🟢 已验证 |
+| 24 | [api.soruxgpt.com](https://api.soruxgpt.com) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.6 | 289 ms | 🟢 已验证 |
+| 25 | [Aiberm](https://aiberm.com) | global | 🔌 | claude, gemini, openai | — | — | 9.6 | 299 ms | 🟢 已验证 |
+| 26 | [api-deerapi-com](https://api.deerapi.com) | cn | 🔌 | claude, gemini, openai | — | — | 9.6 | 343 ms | 🟢 已验证 |
+| 27 | [柏拉图AI_API中转站 (api.bltcy.ai)](https://api.bltcy.ai) | cn | 🔌 | claude, gpt, openai | — | — | 9.6 | 365 ms | 🟢 已验证 |
+| 28 | [api-mnapi-com](https://api.mnapi.com) | cn | 🔌 | claude, gemini, openai | — | — | 9.6 | 479 ms | 🟢 已验证 |
+| 29 | [api.aipaibox.com](https://api.aipaibox.com) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.6 | 1225 ms | 🟢 已验证 |
+| 30 | [LingxiCode](https://new.050602.xyz) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.6 | 1225 ms | 🟢 已验证 |
+| 31 | [marting.pro](https://marting.pro) | global | 🔌 | gpt, chatgpt | — | — | 9.5 | 188 ms | 🟢 已验证 |
+| 32 | [Doro AI](https://doro.lol) | cn | 🔌 | claude, gpt, gemini | new-api | — | 9.5 | 508 ms | 🟢 已验证 |
+| 33 | [comfly](https://ai.comfly.chat) | global | 🔌 | gpt, openai | — | — | 9.5 | 1166 ms | 🟢 已验证 |
+| 34 | [便携AI聚合API](https://api.bianxieai.com) | cn | 🔌 | claude, gemini, openai | new-api | — | 9.5 | 3123 ms | 🟢 已验证 |
+| 35 | [API Management](https://sparkcode.top) | cn | 🔌 | openai | — | — | 9.4 | 64 ms | 🟢 已验证 |
+| 36 | [zen-ai.top](https://zen-ai.top) | cn | 🔌 | openai | — | — | 9.4 | 84 ms | 🟢 已验证 |
+| 37 | [go.sbgpt.site](https://go.sbgpt.site) | cn | 🔌 | openai | new-api | — | 9.4 | 222 ms | 🟢 已验证 |
+| 38 | [钱多多 API (aigcbest.top)](https://aigcbest.top) | cn | 🔌 | openai | new-api | — | 9.4 | 276 ms | 🟢 已验证 |
+| 39 | [GPTNB ONEAPI](https://oneapi.gptnb.ai) | cn | 🔌 | gpt | — | — | 9.4 | 318 ms | 🟢 已验证 |
+| 40 | [钱多多 API (api.ifopen.ai)](https://api.ifopen.ai) | cn | 🔌 | openai | new-api | — | 9.4 | 348 ms | 🟢 已验证 |
+| 41 | [钱多多 API (api.aigcbest.top)](https://api.aigcbest.top) | cn | 🔌 | openai | new-api | — | 9.4 | 526 ms | 🟢 已验证 |
+| 42 | [Unified API](https://unifiedapi.cloud) | cn | 🔌 | openai | — | — | 9.4 | 761 ms | 🟢 已验证 |
+| 43 | [api-featherless-ai](https://api.featherless.ai) | global | 🔌 | — | — | — | 9.3 | 64 ms | 🟢 已验证 |
+| 44 | [chatapi.onechats.top](https://chatapi.onechats.top) | global | 🔌 | — | new-api | — | 9.3 | 116 ms | 🟢 已验证 |
+| 45 | [api.nekoapi.com](https://api.nekoapi.com) | global | 🔌 | — | new-api | — | 9.3 | 160 ms | 🟢 已验证 |
+| 46 | [zerocode.sbs](https://zerocode.sbs) | global | 🔌 | — | new-api | — | 9.3 | 165 ms | 🟢 已验证 |
+| 47 | [api-gptsapi-net](https://api.gptsapi.net) | global | 🔌 | — | — | — | 9.3 | 177 ms | 🟢 已验证 |
+| 48 | [Loading...](https://co.yes.vg) | global | 🔌 | — | — | — | 9.3 | 179 ms | 🟢 已验证 |
+| 49 | [404 Not Found](https://api.aabao.top) | global | 🔌 | — | — | — | 9.3 | 231 ms | 🟢 已验证 |
+| 50 | [KKSJ API](https://cnapi.kksj.org) | global | 🔌 | — | new-api | — | 9.3 | 239 ms | 🟢 已验证 |
 
 > 仅展示 Top 50。完整 189 个榜单见 [`data/_leaderboard.zh.md`](data/_leaderboard.zh.md)。
 
