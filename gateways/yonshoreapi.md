@@ -1,4 +1,4 @@
-# YonshoreAPI
+# YonShoreAPI
 
 > Operator-submitted candidate: an AI API relay for developers using GPT- and Claude-family model endpoints.
 
@@ -12,23 +12,26 @@
 | Public registration opened | 2026-08-13, according to the attached operator record |
 | Target users | Developers integrating language models and coding workflows |
 | Site language | Chinese |
+| Operator | Jerry, personal website operator |
+| Regional availability | Mainland China access, registration and API calls are currently unsupported |
 | Base URL | `https://api.yonshore.com/v1` |
-| API formats | GPT-family catalog entries expose Responses; Claude-family entries expose Anthropic Messages and OpenAI-compatible chat |
+| API formats | Per-model formats: Chat Completions, Responses or Anthropic Messages; consult the live catalogue |
 | Underlying software | Customized New API (AGPL-3.0-only); corresponding-source releases published |
 | Contact for this submission | @jerrynullmmo in the associated GitHub pull request |
-| Public pages checked | 2026-09-19 |
+| Public pages checked | 2026-10-17 |
 
 ## Pricing
 
 The [public pricing page](https://api.yonshore.com/pricing) and [pricing JSON](https://api.yonshore.com/api/pricing) provide per-model rates, billing expressions, supported endpoint formats and eligible groups. Rates vary with model, group and, where applicable, context tier and cache usage. Consult the current table when selecting a model.
 
-Group multipliers are not a claim about a universal cash discount versus a model vendor's official price. No minimum top-up or promotional credit is claimed in this entry.
+Group multipliers are not a claim about a universal cash discount versus a model vendor's official price. The public about page states a minimum top-up of CNY 1; no promotional-credit availability is claimed in this entry.
 
 ## Model Catalog and API Formats
 
 The public catalog lists GPT- and Claude-family request identifiers. Use the exact identifier and supported endpoint shown in the live pricing table.
 
-- GPT-family catalog entries: Responses format, `POST /v1/responses`.
+- `gpt-5.6-sol`, `gpt-5.6-terra` and `gpt-6-astra`: Responses format, `POST /v1/responses`.
+- `gpt-6-sol` and `gpt-6.1-sol`: Chat Completions, `POST /v1/chat/completions`.
 - Claude-family catalog entries: Anthropic Messages, `POST /v1/messages`, and OpenAI-compatible chat, `POST /v1/chat/completions`.
 - A public [Postman request example](https://www.postman.com/navigation-cosmonaut-39149305-s-team/yonshoreapi-quickstart/http-request/30504202-f573b1b2-c769-4fb0-90c7-f813181feb34) and the GitHub quickstart are available.
 
@@ -36,12 +39,13 @@ Catalog identifiers are operator declarations; this submission does not independ
 
 ## Payment, Invoicing and Refunds
 
-The following policies were confirmed by the operator for this submission:
+The public [about page](https://api.yonshore.com/about) states the following; these are operator-reported policies, not independently tested transactions:
 
-- WeChat payment.
-- Company invoicing is currently supported for amounts of CNY 500 or more, with an additional 6% tax charge.
-- The invoice issuer is a technology company.
-- Refund requests are supported within 30 days, without a refund handling fee.
+- WeChat top-up starts at CNY 1. USDT (TRC20) orders start at 1 site credit, with the payable USDT amount shown on the order; this does not mean a 1 USDT minimum.
+- Invoicing is available for amounts of CNY 500 or more, with a stated 6% tax rate. This does not state an additional 6% service charge.
+- Refund applications cover unused, actual recharge funds within 30 days. Consumed amounts and gift credits are excluded; the applicant bears applicable USDT transfer fees.
+- The [support center](https://api.yonshore.com/support) accepts private tickets with images and links to the user's own recharge orders or usage records.
+- The current referral batch provides permanent 5% cash commission on referred users' settled paid usage, with terms locked when the referral relationship is established at registration. Gift-credit usage and unsettled usage are excluded; refunds and reversals reduce corresponding commission. Withdrawals require manual review and payment. Full terms are in the [site announcement](https://api.yonshore.com/).
 - Specific invoice subtype and issuance lead time are not specified here.
 
 ## Operating History and Source Availability
@@ -70,8 +74,10 @@ No independent customer review is supplied with this submission.
 
 ## Changelog
 
+- 2026-10-17: Corrected model-specific endpoints, personal-operator disclosure, regional availability, payment/refund wording and current support/referral information from public site pages.
+
 - 2026-09-19: Initial operator-submitted candidate and operating-history attachment.
 
 ## Conflict of Interest
 
-Submitted by the YonshoreAPI operator (@jerrynullmmo). This is a request for independent inclusion review, not a user testimonial or a claim of endorsement.
+Submitted by the YonShoreAPI operator (@jerrynullmmo). This is a request for independent inclusion review, not a user testimonial or a claim of endorsement.
