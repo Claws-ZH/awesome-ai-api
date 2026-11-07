@@ -116,3 +116,11 @@ api.daheiai.com:
   name: "大黑 API 导航"
   region: "cn"
   verdict: "directory"
+
+# Bare domain matches www.sandbase.ai via netloc.removeprefix("www.").
+# verdict is applied after probe promotion, so this stays needs_review.
+sandbase.ai:
+  name: "SandBase"
+  region: "global"
+  verdict: "needs_review"
+  note: "Independent product (models, data APIs, sandboxes, agents) with an OpenAI-compatible API. Not classified by the daily probe yet. Founder: David Li."
