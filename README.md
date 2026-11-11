@@ -147,6 +147,7 @@ _Last updated: 2026-11-10 17:16 (SGT)_
 | 48 | [api.kissapi.ai](https://api.kissapi.ai) | global | 🔌 | — | new-api | — | 9.3 | 187 ms | 🟢 Verified |
 | 49 | [OneToken](https://onetoken.one) | global | 🔌 | — | new-api | — | 9.3 | 194 ms | 🟢 Verified |
 | 50 | [api.ikuncode.cc](https://api.ikuncode.cc) | global | 🔌 | — | new-api | — | 9.3 | 202 ms | 🟢 Verified |
+| — | [龙宝 API](https://api.888425.xyz/pricing) | cn | 🔌 | **38 models** | new-api | alipay, wechat | — | — | 🔍 Pending review |
 
 > Top 50 shown. See [`data/_leaderboard.md`](data/_leaderboard.md) for the full list of 191 gateways.
 
