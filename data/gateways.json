@@ -1,8 +1,8 @@
 {
   "$schema": "./gateways.schema.json",
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "updated_at": "2026-11-10 17:16 SGT",
-  "total": 191,
+  "total": 192,
   "gateways": [
     {
       "slug": "packyapi-com",
@@ -6858,6 +6858,49 @@
       "score": 5.6,
       "verdict": "needs_review",
       "last_verified": "2026-11-10"
+    },
+    {
+      "slug": "longbao-api",
+      "name": "龙宝 API",
+      "url": "https://api.888425.xyz/pricing",
+      "final_url": "https://api.888425.xyz/pricing",
+      "region": "cn",
+      "payment": [
+        "alipay",
+        "wechat"
+      ],
+      "models_signaled": [
+        "claude",
+        "gpt",
+        "gemini",
+        "deepseek",
+        "qwen",
+        "glm",
+        "kimi"
+      ],
+      "real_models_count": 38,
+      "real_models_sample": [
+        "claude-opus-5-5",
+        "claude-sonnet-5-5",
+        "gpt-6-astra",
+        "gemini-3.8-flash",
+        "deepseek-v4.1-flash",
+        "qwen3.8-max-0902",
+        "glm-5.3",
+        "kimi-k3.1-pro"
+      ],
+      "engine": "new-api",
+      "reachable": true,
+      "http_status": 200,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "reachable-auth-required"
+      },
+      "note": "国内可访问的 new-api 中转站，38 个模型，OpenAI + Anthropic 双协议；公开逐模型价格页与分组倍率，含 gpt-image / qwen-image / wan3.0-video 生图与视频模型。",
+      "verdict": "operator_submitted",
+      "last_verified": "2026-11-11"
     }
   ]
 }
