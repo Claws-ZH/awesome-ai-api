@@ -91,7 +91,7 @@ Auto-generated daily at **10:00 SGT (UTC+8)** from live probes. See [methodology
 <!-- LEADERBOARD:BEGIN -->
 _Last updated: 2026-11-16 17:00 (SGT)_
 
-**Total: 192 gateways** · 🔌 **92 with confirmed `/v1/models` endpoint** · 🟢 127 Verified · 🟡 5 Probable · 🧰 4 OSS · 🔍 56 Needs review
+**Total: 193 gateways** · 🔌 **92 with confirmed `/v1/models` endpoint** · 🟢 127 Verified · 🟡 5 Probable · 🧰 4 OSS · 🔍 57 Needs review
 
 **Top engines detected:** `new-api` × 42 · `one-api` × 25 · `dify` × 6 · `openrouter` × 2 · `litellm` × 2
 
@@ -147,6 +147,7 @@ _Last updated: 2026-11-16 17:00 (SGT)_
 | 48 | [云雾 API (YunWu)](https://yunwu.ai) | cn | 🔌 | — | — | — | 9.3 | 176 ms | 🟢 Verified |
 | 49 | [chatapi.onechats.top](https://chatapi.onechats.top) | global | 🔌 | — | new-api | — | 9.3 | 179 ms | 🟢 Verified |
 | 50 | [apirouter.ai](https://apirouter.ai) | global | 🔌 | — | new-api | — | 9.3 | 181 ms | 🟢 Verified |
+| — | [Aimyria](https://aimyria.com) | cn | 🔌 | **51 models** | — | alipay, wechat | — | — | 🔍 Needs review (self-submitted) |
 
 > Top 50 shown. See [`data/_leaderboard.md`](data/_leaderboard.md) for the full list of 192 gateways.
 

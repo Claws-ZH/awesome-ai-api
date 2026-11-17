@@ -147,6 +147,7 @@ _Last updated: 2026-11-16 17:00 (SGT)_
 | 48 | [云雾 API (YunWu)](https://yunwu.ai) | cn | 🔌 | — | — | — | 9.3 | 176 ms | 🟢 已验证 |
 | 49 | [chatapi.onechats.top](https://chatapi.onechats.top) | global | 🔌 | — | new-api | — | 9.3 | 179 ms | 🟢 已验证 |
 | 50 | [apirouter.ai](https://apirouter.ai) | global | 🔌 | — | new-api | — | 9.3 | 181 ms | 🟢 已验证 |
+| — | [Aimyria](https://aimyria.com) | cn | 🔌 | **51 模型** | — | alipay, wechat | — | — | 🔍 待审核（自荐） |
 
 > 仅展示 Top 50。完整 192 个榜单见 [`data/_leaderboard.zh.md`](data/_leaderboard.zh.md)。
 
