@@ -1,8 +1,8 @@
 {
   "$schema": "./gateways.schema.json",
-  "updated": "2026-11-17",
-  "updated_at": "2026-11-17 18:12 SGT",
-  "total": 190,
+  "updated": "2026-11-18",
+  "updated_at": "2026-11-18 17:44 SGT",
+  "total": 187,
   "gateways": [
     {
       "slug": "buzzai-cc",
@@ -28,7 +28,7 @@
       "engine": "one-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 75,
+      "took_ms": 150,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -45,7 +45,46 @@
       "note": null,
       "score": 9.9,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "packyapi-com",
+      "name": "PackyAPI (PackyCode)",
+      "url": "https://www.packyapi.com",
+      "final_url": "https://www.packyapi.com",
+      "region": "cn",
+      "payment": [
+        "wechat"
+      ],
+      "models_signaled": [
+        "claude",
+        "gpt",
+        "gemini",
+        "openai"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 196,
+      "has_api": true,
+      "probe": {
+        "status": 403,
+        "path": "/v1/models",
+        "hint": "403-auth"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": "One of the earliest Claude-Code-focused relays; upstream to many resellers.",
+      "score": 9.9,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "featherless-ai",
@@ -64,19 +103,19 @@
       ],
       "real_models_count": 50,
       "real_models_sample": [
-        "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
         "Qwen/Qwen3.8-27B",
-        "moonshotai/Kimi-K3.1-Pro",
-        "NousResearch/Arete-27B",
         "deepseek-ai/DeepSeek-V4.1-Flash-1017",
-        "Qwen/Qwen3.8-Flash-Next",
         "xtools-at/DeepSeek-V4-Pro-Qwen3.5-4B-UNCENSORED-heretic",
+        "NousResearch/Arete-27B",
+        "moonshotai/Kimi-K3.1-Pro",
+        "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+        "Qwen/Qwen3.8-Flash-Next",
         "meta-llama/Llama-3.1-8B-Instruct"
       ],
       "engine": "one-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 104,
+      "took_ms": 233,
       "has_api": true,
       "probe": {
         "status": 200,
@@ -93,48 +132,7 @@
       "note": null,
       "score": 9.9,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "anyrouter-dev",
-      "name": "AnyRouter · Universal AI Model Router",
-      "url": "https://anyrouter.dev",
-      "final_url": "https://anyrouter.dev",
-      "region": "global",
-      "payment": [
-        "crypto"
-      ],
-      "models_signaled": [
-        "gemini",
-        "anthropic",
-        "openai",
-        "deepseek",
-        "qwen",
-        "mistral"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "one-api",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 150,
-      "has_api": true,
-      "probe": {
-        "status": 200,
-        "path": "/v1/models",
-        "hint": "openai-models-json"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.9,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "aihubmix-com",
@@ -156,18 +154,18 @@
       "real_models_count": 500,
       "real_models_sample": [
         "auto",
+        "gpt-6.2-astra",
+        "gpt-6.2-sol",
         "gemini-4-hydrogen",
         "hy4-flash",
         "qwen4-max",
         "coding-qwen4-max-preview",
-        "ernie-5.5-flash-preview",
-        "gemini-4-carbon",
-        "ling-3.2-flash-free"
+        "ernie-5.5-flash-preview"
       ],
       "engine": "one-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 240,
+      "took_ms": 352,
       "has_api": true,
       "probe": {
         "status": 200,
@@ -184,7 +182,7 @@
       "note": null,
       "score": 9.9,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "avian-io",
@@ -217,7 +215,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 269,
+      "took_ms": 378,
       "has_api": true,
       "probe": {
         "status": 200,
@@ -234,7 +232,47 @@
       "note": null,
       "score": 9.9,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "anyrouter-dev",
+      "name": "AnyRouter · Universal AI Model Router",
+      "url": "https://anyrouter.dev",
+      "final_url": "https://anyrouter.dev",
+      "region": "global",
+      "payment": [
+        "crypto"
+      ],
+      "models_signaled": [
+        "gpt",
+        "anthropic",
+        "openai",
+        "deepseek",
+        "mistral"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "one-api",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 768,
+      "has_api": true,
+      "probe": {
+        "status": 200,
+        "path": "/v1/models",
+        "hint": "openai-models-json"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.9,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "ddshub-cc",
@@ -258,7 +296,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 275,
+      "took_ms": 910,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -275,46 +313,7 @@
       "note": null,
       "score": 9.9,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "packyapi-com",
-      "name": "PackyAPI (PackyCode)",
-      "url": "https://www.packyapi.com",
-      "final_url": "https://www.packyapi.com",
-      "region": "cn",
-      "payment": [
-        "wechat"
-      ],
-      "models_signaled": [
-        "claude",
-        "gpt",
-        "gemini",
-        "openai"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 483,
-      "has_api": true,
-      "probe": {
-        "status": 403,
-        "path": "/v1/models",
-        "hint": "403-auth"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": "One of the earliest Claude-Code-focused relays; upstream to many resellers.",
-      "score": 9.9,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "apimart-ai",
@@ -339,7 +338,7 @@
       "engine": "one-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 1180,
+      "took_ms": 1264,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -356,89 +355,7 @@
       "note": null,
       "score": 9.9,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "openrouter-ai",
-      "name": "OpenRouter",
-      "url": "https://openrouter.ai",
-      "final_url": "https://openrouter.ai",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [
-        "claude",
-        "gpt",
-        "gemini",
-        "anthropic",
-        "openai",
-        "deepseek",
-        "mistral",
-        "grok"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "one-api",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 142,
-      "has_api": true,
-      "probe": {
-        "status": 200,
-        "path": "/api/v1/models",
-        "hint": "openai-models-json"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": "Pioneer of the multi-provider aggregation pattern.",
-      "score": 9.8,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "api-vveai-com",
-      "name": "api.vveai.com",
-      "url": "https://api.vveai.com",
-      "final_url": "https://api.vveai.com",
-      "region": "cn",
-      "payment": [],
-      "models_signaled": [
-        "claude",
-        "gpt",
-        "gemini",
-        "chatgpt",
-        "openai",
-        "deepseek",
-        "qwen",
-        "grok"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 222,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-need-key"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.8,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "aiberm-com",
@@ -462,7 +379,7 @@
       "engine": "one-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 252,
+      "took_ms": 185,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -479,45 +396,7 @@
       "note": null,
       "score": 9.8,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "api-ephone-ai",
-      "name": "ePhone AI",
-      "url": "https://api.ephone.ai",
-      "final_url": "https://platform.ephone.ai/",
-      "region": "cn",
-      "payment": [],
-      "models_signaled": [
-        "claude",
-        "gpt",
-        "gemini",
-        "openai",
-        "deepseek"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 289,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-auth"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.8,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "api-v36-cm",
@@ -541,7 +420,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 324,
+      "took_ms": 250,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -558,13 +437,135 @@
       "note": null,
       "score": 9.8,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "api-v3-cm",
-      "name": "api.v3.cm",
-      "url": "https://api.v3.cm",
-      "final_url": "https://api.v3.cm",
+      "slug": "openrouter-ai",
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai",
+      "final_url": "https://openrouter.ai",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [
+        "claude",
+        "gpt",
+        "gemini",
+        "anthropic",
+        "openai",
+        "deepseek",
+        "mistral",
+        "grok"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "one-api",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 259,
+      "has_api": true,
+      "probe": {
+        "status": 200,
+        "path": "/api/v1/models",
+        "hint": "openai-models-json"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": "Pioneer of the multi-provider aggregation pattern.",
+      "score": 9.8,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "timicc-com",
+      "name": "TiMi CC",
+      "url": "https://timicc.com",
+      "final_url": "https://timicc.com",
+      "region": "cn",
+      "payment": [
+        "wechat",
+        "card"
+      ],
+      "models_signaled": [
+        "gpt",
+        "openai",
+        "qwen"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 268,
+      "has_api": true,
+      "probe": {
+        "status": 403,
+        "path": "/v1/models",
+        "hint": "403-auth"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.8,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "aigcbest-top",
+      "name": "钱多多 API｜OpenAI 兼容的大模型统一接口",
+      "url": "https://aigcbest.top",
+      "final_url": "https://aigcbest.top",
+      "region": "cn",
+      "payment": [],
+      "models_signaled": [
+        "claude",
+        "gpt",
+        "gemini",
+        "anthropic",
+        "openai",
+        "deepseek",
+        "qwen",
+        "mistral",
+        "grok"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "dify",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 320,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-need-key"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.8,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "api-vveai-com",
+      "name": "api.vveai.com",
+      "url": "https://api.vveai.com",
+      "final_url": "https://api.vveai.com",
       "region": "cn",
       "payment": [],
       "models_signaled": [
@@ -599,71 +600,31 @@
       "note": null,
       "score": 9.8,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "timicc-com",
-      "name": "TiMi CC",
-      "url": "https://timicc.com",
-      "final_url": "https://timicc.com",
-      "region": "cn",
-      "payment": [
-        "wechat",
-        "card"
-      ],
-      "models_signaled": [
-        "gpt",
-        "openai",
-        "qwen"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 354,
-      "has_api": true,
-      "probe": {
-        "status": 403,
-        "path": "/v1/models",
-        "hint": "403-auth"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.8,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "aigcbest-top",
-      "name": "钱多多 API｜OpenAI 兼容的大模型统一接口",
-      "url": "https://aigcbest.top",
-      "final_url": "https://aigcbest.top",
+      "slug": "api-v3-cm",
+      "name": "api.v3.cm",
+      "url": "https://api.v3.cm",
+      "final_url": "https://api.v3.cm",
       "region": "cn",
       "payment": [],
       "models_signaled": [
         "claude",
         "gpt",
         "gemini",
-        "anthropic",
+        "chatgpt",
         "openai",
         "deepseek",
         "qwen",
-        "mistral",
         "grok"
       ],
       "real_models_count": 0,
       "real_models_sample": [],
-      "engine": "dify",
+      "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 419,
+      "took_ms": 411,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -680,47 +641,7 @@
       "note": null,
       "score": 9.8,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "api-yuegle-com",
-      "name": "Yuegle API",
-      "url": "https://api.yuegle.com",
-      "final_url": "https://api.yuegle.com",
-      "region": "cn",
-      "payment": [],
-      "models_signaled": [
-        "claude",
-        "gpt",
-        "gemini",
-        "chatgpt",
-        "openai",
-        "deepseek",
-        "grok"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 544,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-auth"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.8,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "api-gpt-ge",
@@ -744,7 +665,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 596,
+      "took_ms": 429,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -761,28 +682,30 @@
       "note": null,
       "score": 9.8,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "api-aipaibox-com",
-      "name": "AI派 · AI 大模型 API 中转站：Claude、GPT、Gemini 一个令牌全接入",
-      "url": "https://api.aipaibox.com",
-      "final_url": "https://api.aipaibox.com",
+      "slug": "api-yuegle-com",
+      "name": "Yuegle API",
+      "url": "https://api.yuegle.com",
+      "final_url": "https://api.yuegle.com",
       "region": "cn",
       "payment": [],
       "models_signaled": [
         "claude",
         "gpt",
         "gemini",
+        "chatgpt",
         "openai",
+        "deepseek",
         "grok"
       ],
       "real_models_count": 0,
       "real_models_sample": [],
-      "engine": "new-api",
+      "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 696,
+      "took_ms": 496,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -799,7 +722,7 @@
       "note": null,
       "score": 9.8,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "doro-lol",
@@ -820,7 +743,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 878,
+      "took_ms": 523,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -837,7 +760,83 @@
       "note": null,
       "score": 9.8,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "api-aipaibox-com",
+      "name": "AI派 · AI 大模型 API 中转站：Claude、GPT、Gemini 一个令牌全接入",
+      "url": "https://api.aipaibox.com",
+      "final_url": "https://api.aipaibox.com",
+      "region": "cn",
+      "payment": [],
+      "models_signaled": [
+        "claude",
+        "gpt",
+        "gemini",
+        "openai",
+        "grok"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "new-api",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 573,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-auth"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.8,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "api-ephone-ai",
+      "name": "ePhone AI",
+      "url": "https://api.ephone.ai",
+      "final_url": "https://platform.ephone.ai/",
+      "region": "cn",
+      "payment": [],
+      "models_signaled": [
+        "claude",
+        "gpt",
+        "gemini",
+        "openai",
+        "deepseek"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 612,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-auth"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.8,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "right-codes",
@@ -858,7 +857,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 1141,
+      "took_ms": 678,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -875,7 +874,7 @@
       "note": null,
       "score": 9.8,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "jeniya-cn",
@@ -896,7 +895,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 1289,
+      "took_ms": 1080,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -913,7 +912,7 @@
       "note": null,
       "score": 9.8,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "api-bianxieai-com",
@@ -934,7 +933,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 2494,
+      "took_ms": 1133,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -951,7 +950,7 @@
       "note": null,
       "score": 9.8,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "ggwk1-online",
@@ -971,7 +970,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 169,
+      "took_ms": 236,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -988,7 +987,48 @@
       "note": null,
       "score": 9.7,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "api-featherless-ai",
+      "name": "api-featherless-ai",
+      "url": "https://api.featherless.ai",
+      "final_url": "https://api.featherless.ai",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 50,
+      "real_models_sample": [
+        "Qwen/Qwen3.8-27B",
+        "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "xtools-at/DeepSeek-V4-Pro-Qwen3.5-4B-UNCENSORED-heretic",
+        "NousResearch/Arete-27B",
+        "moonshotai/Kimi-K3.1-Pro",
+        "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+        "Qwen/Qwen3.8-Flash-Next",
+        "meta-llama/Llama-3.1-8B-Instruct"
+      ],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 280,
+      "has_api": true,
+      "probe": {
+        "status": 200,
+        "path": "/v1/models",
+        "hint": "openai-models-json"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.7,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "claudecn-top",
@@ -1008,7 +1048,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 183,
+      "took_ms": 392,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -1025,48 +1065,7 @@
       "note": null,
       "score": 9.7,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "api-featherless-ai",
-      "name": "api-featherless-ai",
-      "url": "https://api.featherless.ai",
-      "final_url": "https://api.featherless.ai",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 50,
-      "real_models_sample": [
-        "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-        "Qwen/Qwen3.8-27B",
-        "moonshotai/Kimi-K3.1-Pro",
-        "NousResearch/Arete-27B",
-        "deepseek-ai/DeepSeek-V4.1-Flash-1017",
-        "Qwen/Qwen3.8-Flash-Next",
-        "xtools-at/DeepSeek-V4-Pro-Qwen3.5-4B-UNCENSORED-heretic",
-        "meta-llama/Llama-3.1-8B-Instruct"
-      ],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 340,
-      "has_api": true,
-      "probe": {
-        "status": 200,
-        "path": "/v1/models",
-        "hint": "openai-models-json"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.7,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "ohmygpt-com",
@@ -1086,7 +1085,7 @@
       "engine": "one-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 400,
+      "took_ms": 533,
       "has_api": true,
       "probe": {
         "status": 200,
@@ -1103,7 +1102,7 @@
       "note": null,
       "score": 9.7,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "api-gptgod-work",
@@ -1127,7 +1126,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 776,
+      "took_ms": 584,
       "has_api": true,
       "probe": {
         "status": 200,
@@ -1144,115 +1143,7 @@
       "note": null,
       "score": 9.7,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "api-mnapi-com",
-      "name": "api-mnapi-com",
-      "url": "https://api.mnapi.com",
-      "final_url": "https://api.mnapi.com",
-      "region": "cn",
-      "payment": [],
-      "models_signaled": [
-        "claude",
-        "gemini",
-        "openai"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 229,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-auth"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.6,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "api-chatfire-cn",
-      "name": "api-chatfire-cn",
-      "url": "https://api.chatfire.cn",
-      "final_url": "https://api.chatfire.cn",
-      "region": "cn",
-      "payment": [],
-      "models_signaled": [
-        "claude",
-        "gemini",
-        "openai"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 250,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-auth"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.6,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "api-soruxgpt-com",
-      "name": "api.soruxgpt.com",
-      "url": "https://api.soruxgpt.com",
-      "final_url": "https://ai.soruxgpt.com/",
-      "region": "cn",
-      "payment": [],
-      "models_signaled": [
-        "claude",
-        "gemini",
-        "openai"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "new-api",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 325,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-need-key"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.6,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "api-onechats-top",
@@ -1271,7 +1162,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 411,
+      "took_ms": 243,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -1288,7 +1179,115 @@
       "note": null,
       "score": 9.6,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "api-soruxgpt-com",
+      "name": "api.soruxgpt.com",
+      "url": "https://api.soruxgpt.com",
+      "final_url": "https://ai.soruxgpt.com/",
+      "region": "cn",
+      "payment": [],
+      "models_signaled": [
+        "claude",
+        "gemini",
+        "openai"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "new-api",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 369,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-need-key"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.6,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "api-chatfire-cn",
+      "name": "api-chatfire-cn",
+      "url": "https://api.chatfire.cn",
+      "final_url": "https://api.chatfire.cn",
+      "region": "cn",
+      "payment": [],
+      "models_signaled": [
+        "claude",
+        "gemini",
+        "openai"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 444,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-auth"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.6,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "api-mnapi-com",
+      "name": "api-mnapi-com",
+      "url": "https://api.mnapi.com",
+      "final_url": "https://api.mnapi.com",
+      "region": "cn",
+      "payment": [],
+      "models_signaled": [
+        "claude",
+        "gemini",
+        "openai"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 622,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-auth"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.6,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "ai-comfly-chat",
@@ -1306,7 +1305,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 872,
+      "took_ms": 1166,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -1323,7 +1322,7 @@
       "note": null,
       "score": 9.5,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "ai-tokencloud-ai",
@@ -1340,7 +1339,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 1586,
+      "took_ms": 1469,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -1357,41 +1356,7 @@
       "note": null,
       "score": 9.5,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "zen-ai-top",
-      "name": "zen-ai.top",
-      "url": "https://zen-ai.top",
-      "final_url": "https://zen-ai.top",
-      "region": "cn",
-      "payment": [],
-      "models_signaled": [
-        "openai"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 129,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-auth"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.4,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "go-sbgpt-site",
@@ -1408,7 +1373,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 202,
+      "took_ms": 165,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -1425,24 +1390,24 @@
       "note": null,
       "score": 9.4,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "oneapi-gptnb-ai",
-      "name": "GPTNB ONEAPI",
-      "url": "https://oneapi.gptnb.ai",
-      "final_url": "https://oneapi.gptnb.ai",
+      "slug": "zen-ai-top",
+      "name": "zen-ai.top",
+      "url": "https://zen-ai.top",
+      "final_url": "https://zen-ai.top",
       "region": "cn",
       "payment": [],
       "models_signaled": [
-        "gpt"
+        "openai"
       ],
       "real_models_count": 0,
       "real_models_sample": [],
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 384,
+      "took_ms": 226,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -1459,7 +1424,7 @@
       "note": null,
       "score": 9.4,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "api-ifopen-ai",
@@ -1476,7 +1441,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 493,
+      "took_ms": 254,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -1493,7 +1458,41 @@
       "note": null,
       "score": 9.4,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "oneapi-gptnb-ai",
+      "name": "GPTNB ONEAPI",
+      "url": "https://oneapi.gptnb.ai",
+      "final_url": "https://oneapi.gptnb.ai",
+      "region": "cn",
+      "payment": [],
+      "models_signaled": [
+        "gpt"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 339,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-auth"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.4,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "35-aigcbest-top",
@@ -1510,7 +1509,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 514,
+      "took_ms": 424,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -1527,7 +1526,7 @@
       "note": null,
       "score": 9.4,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "api-aigcbest-top",
@@ -1544,7 +1543,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 526,
+      "took_ms": 492,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -1561,7 +1560,7 @@
       "note": null,
       "score": 9.4,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "api-302ai-com",
@@ -1578,7 +1577,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 632,
+      "took_ms": 923,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -1595,7 +1594,7 @@
       "note": null,
       "score": 9.4,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "api-302ai-cn",
@@ -1612,7 +1611,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 2006,
+      "took_ms": 1316,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -1629,22 +1628,22 @@
       "note": null,
       "score": 9.4,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "chatapi-onechats-top",
-      "name": "chatapi.onechats.top",
-      "url": "https://chatapi.onechats.top",
-      "final_url": "https://chatapi.onechats.top",
-      "region": "global",
+      "slug": "openai-labs-com",
+      "name": "Ai实验室",
+      "url": "https://www.openai-labs.com",
+      "final_url": "https://www.openai-labs.com",
+      "region": "cn",
       "payment": [],
       "models_signaled": [],
       "real_models_count": 0,
       "real_models_sample": [],
-      "engine": "new-api",
+      "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 146,
+      "took_ms": 164,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -1661,7 +1660,7 @@
       "note": null,
       "score": 9.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "new-xjai-cc",
@@ -1676,7 +1675,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 153,
+      "took_ms": 177,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -1693,7 +1692,71 @@
       "note": null,
       "score": 9.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "chatapi-onechats-top",
+      "name": "chatapi.onechats.top",
+      "url": "https://chatapi.onechats.top",
+      "final_url": "https://chatapi.onechats.top",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "new-api",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 189,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-need-key"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.3,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "api-laozhang-ai",
+      "name": "LaoZhang API",
+      "url": "https://api.laozhang.ai",
+      "final_url": "https://api.laozhang.ai",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 196,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-need-key"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.3,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "api-nekoapi-com",
@@ -1708,7 +1771,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 159,
+      "took_ms": 214,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -1725,13 +1788,13 @@
       "note": null,
       "score": 9.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "apirouter-ai",
-      "name": "apirouter.ai",
-      "url": "https://apirouter.ai",
-      "final_url": "https://apirouter.ai",
+      "slug": "api-gemai-cc",
+      "name": "api.gemai.cc",
+      "url": "https://api.gemai.cc",
+      "final_url": "https://api.gemai.cc",
       "region": "global",
       "payment": [],
       "models_signaled": [],
@@ -1740,7 +1803,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 190,
+      "took_ms": 241,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -1757,27 +1820,27 @@
       "note": null,
       "score": 9.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "infai-cc",
-      "name": "欢迎访问无限API",
-      "url": "https://infai.cc",
-      "final_url": "https://infai.cc",
-      "region": "cn",
+      "slug": "new-yunai-link",
+      "name": "new.yunai.link",
+      "url": "https://new.yunai.link",
+      "final_url": "https://new.yunai.link",
+      "region": "global",
       "payment": [],
       "models_signaled": [],
       "real_models_count": 0,
       "real_models_sample": [],
-      "engine": null,
+      "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 209,
+      "took_ms": 248,
       "has_api": true,
       "probe": {
         "status": 401,
         "path": "/v1/models",
-        "hint": "401-auth"
+        "hint": "401-need-key"
       },
       "uptime": {
         "window_days": 30,
@@ -1789,7 +1852,7 @@
       "note": null,
       "score": 9.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "sparkcode-top",
@@ -1802,70 +1865,6 @@
       "real_models_count": 0,
       "real_models_sample": [],
       "engine": "new-api",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 210,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-need-key"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.3,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "yunwu-ai",
-      "name": "云雾 API (YunWu)",
-      "url": "https://yunwu.ai",
-      "final_url": "https://yunwu.ai",
-      "region": "cn",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 244,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-auth"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.3,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "api-aabao-top",
-      "name": "404 Not Found",
-      "url": "https://api.aabao.top",
-      "final_url": "https://api.aabao.top",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
       "reachable": true,
       "http_status": 200,
       "took_ms": 250,
@@ -1885,13 +1884,13 @@
       "note": null,
       "score": 9.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "openai-labs-com",
-      "name": "Ai实验室",
-      "url": "https://www.openai-labs.com",
-      "final_url": "https://www.openai-labs.com",
+      "slug": "yunwu-ai",
+      "name": "云雾 API (YunWu)",
+      "url": "https://yunwu.ai",
+      "final_url": "https://yunwu.ai",
       "region": "cn",
       "payment": [],
       "models_signaled": [],
@@ -1900,12 +1899,12 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 252,
+      "took_ms": 250,
       "has_api": true,
       "probe": {
         "status": 401,
         "path": "/v1/models",
-        "hint": "401-need-key"
+        "hint": "401-auth"
       },
       "uptime": {
         "window_days": 30,
@@ -1917,39 +1916,7 @@
       "note": null,
       "score": 9.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "api-kissapi-ai",
-      "name": "api.kissapi.ai",
-      "url": "https://api.kissapi.ai",
-      "final_url": "https://api.kissapi.ai",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "new-api",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 262,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-need-key"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.3,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "api-gptsapi-net",
@@ -1964,7 +1931,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 263,
+      "took_ms": 260,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -1981,199 +1948,7 @@
       "note": null,
       "score": 9.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "api-laozhang-ai",
-      "name": "LaoZhang API",
-      "url": "https://api.laozhang.ai",
-      "final_url": "https://api.laozhang.ai",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 268,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-need-key"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.3,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "api-gemai-cc",
-      "name": "api.gemai.cc",
-      "url": "https://api.gemai.cc",
-      "final_url": "https://api.gemai.cc",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "new-api",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 270,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-need-key"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.3,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "zerocode-sbs",
-      "name": "zerocode.sbs",
-      "url": "https://zerocode.sbs",
-      "final_url": "https://zerocode.sbs",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "new-api",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 275,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-need-key"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.3,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "onetoken-one",
-      "name": "OneToken",
-      "url": "https://onetoken.one",
-      "final_url": "https://onetoken.one",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "new-api",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 294,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-need-key"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.3,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "kfcv50-link",
-      "name": "KFC V50 API",
-      "url": "https://kfcv50.link",
-      "final_url": "https://kfcv50.link",
-      "region": "cn",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 300,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-need-key"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.3,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "api-ekan8-com",
-      "name": "api.ekan8.com",
-      "url": "https://api.ekan8.com",
-      "final_url": "https://api.ekan8.com",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "new-api",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 308,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-need-key"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.3,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "api-holdai-top",
@@ -2192,7 +1967,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 313,
+      "took_ms": 265,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -2209,22 +1984,22 @@
       "note": null,
       "score": 9.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "cnapi-kksj-org",
-      "name": "KKSJ API",
-      "url": "https://cnapi.kksj.org",
-      "final_url": "https://cnapi.kksj.org",
+      "slug": "api-aabao-top",
+      "name": "404 Not Found",
+      "url": "https://api.aabao.top",
+      "final_url": "https://api.aabao.top",
       "region": "global",
       "payment": [],
       "models_signaled": [],
       "real_models_count": 0,
       "real_models_sample": [],
-      "engine": "new-api",
+      "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 325,
+      "took_ms": 267,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -2241,39 +2016,7 @@
       "note": null,
       "score": 9.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "api-ikuncode-cc",
-      "name": "api.ikuncode.cc",
-      "url": "https://api.ikuncode.cc",
-      "final_url": "https://api.ikuncode.cc",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "new-api",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 355,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-need-key"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.3,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "gptgod-cloud",
@@ -2288,7 +2031,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 377,
+      "took_ms": 267,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -2305,13 +2048,13 @@
       "note": null,
       "score": 9.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "apipro-maynor1024-live",
-      "name": "欢迎来到 MomoAPI",
-      "url": "https://apipro.maynor1024.live",
-      "final_url": "https://tryallapi.com/",
+      "slug": "infai-cc",
+      "name": "欢迎访问无限API",
+      "url": "https://infai.cc",
+      "final_url": "https://infai.cc",
       "region": "cn",
       "payment": [],
       "models_signaled": [],
@@ -2320,7 +2063,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 397,
+      "took_ms": 289,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -2337,45 +2080,13 @@
       "note": null,
       "score": 9.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "co-yes-vg",
-      "name": "Loading...",
-      "url": "https://co.yes.vg",
-      "final_url": "https://co.yes.vg",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 526,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-need-key"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.3,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "new-yunai-link",
-      "name": "new.yunai.link",
-      "url": "https://new.yunai.link",
-      "final_url": "https://new.yunai.link",
+      "slug": "api-ekan8-com",
+      "name": "api.ekan8.com",
+      "url": "https://api.ekan8.com",
+      "final_url": "https://api.ekan8.com",
       "region": "global",
       "payment": [],
       "models_signaled": [],
@@ -2384,7 +2095,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 554,
+      "took_ms": 290,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -2401,13 +2112,13 @@
       "note": null,
       "score": 9.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "xeduapi-com",
-      "name": "xeduapi.com",
-      "url": "https://xeduapi.com",
-      "final_url": "https://xeduapi.com",
+      "slug": "apirouter-ai",
+      "name": "apirouter.ai",
+      "url": "https://apirouter.ai",
+      "final_url": "https://apirouter.ai",
       "region": "global",
       "payment": [],
       "models_signaled": [],
@@ -2416,7 +2127,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 573,
+      "took_ms": 298,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -2433,13 +2144,13 @@
       "note": null,
       "score": 9.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "api-nio-gs",
-      "name": "Nio API",
-      "url": "https://api.nio.gs",
-      "final_url": "https://api.nio.gs",
+      "slug": "api-kissapi-ai",
+      "name": "api.kissapi.ai",
+      "url": "https://api.kissapi.ai",
+      "final_url": "https://api.kissapi.ai",
       "region": "global",
       "payment": [],
       "models_signaled": [],
@@ -2448,7 +2159,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 632,
+      "took_ms": 302,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -2465,13 +2176,13 @@
       "note": null,
       "score": 9.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "unifiedapi-cloud",
-      "name": "unifiedapi.cloud",
-      "url": "https://unifiedapi.cloud",
-      "final_url": "https://unifiedapi.cloud",
+      "slug": "zerocode-sbs",
+      "name": "zerocode.sbs",
+      "url": "https://zerocode.sbs",
+      "final_url": "https://zerocode.sbs",
       "region": "global",
       "payment": [],
       "models_signaled": [],
@@ -2480,7 +2191,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 681,
+      "took_ms": 314,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -2497,13 +2208,13 @@
       "note": null,
       "score": 9.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "api-mixrai-com",
-      "name": "MixrAI",
-      "url": "https://api.mixrai.com",
-      "final_url": "https://api.mixrai.com",
+      "slug": "cnapi-kksj-org",
+      "name": "KKSJ API",
+      "url": "https://cnapi.kksj.org",
+      "final_url": "https://cnapi.kksj.org",
       "region": "global",
       "payment": [],
       "models_signaled": [],
@@ -2512,7 +2223,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 741,
+      "took_ms": 323,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -2529,77 +2240,13 @@
       "note": null,
       "score": 9.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "new-050602-xyz",
-      "name": "LingxiCode",
-      "url": "https://new.050602.xyz",
-      "final_url": "https://new.050602.xyz",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "new-api",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 1057,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-need-key"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.3,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "api-chatanywhere-tech",
-      "name": "ChatAnywhere (api.chatanywhere.tech)",
-      "url": "https://api.chatanywhere.tech",
-      "final_url": "https://chatanywhere.tech/",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 1163,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-need-key"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.3,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "api-ai-gaochao-cn",
-      "name": "数标标API",
-      "url": "https://api.ai-gaochao.cn",
-      "final_url": "https://api.ai-gaochao.cn",
+      "slug": "kfcv50-link",
+      "name": "KFC V50 API",
+      "url": "https://kfcv50.link",
+      "final_url": "https://kfcv50.link",
       "region": "cn",
       "payment": [],
       "models_signaled": [],
@@ -2608,7 +2255,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 1220,
+      "took_ms": 326,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -2625,71 +2272,7 @@
       "note": null,
       "score": 9.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "api-chatanywhere-org",
-      "name": "ChatAnywhere (api.chatanywhere.org)",
-      "url": "https://api.chatanywhere.org",
-      "final_url": "https://chatanywhere.tech/",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 1242,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-need-key"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.3,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "api-moonshot-cn",
-      "name": "api-moonshot-cn",
-      "url": "https://api.moonshot.cn",
-      "final_url": "https://api.moonshot.cn",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 1268,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-need-key"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.3,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "duckcoding-ai",
@@ -2704,7 +2287,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 1415,
+      "took_ms": 422,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -2721,7 +2304,327 @@
       "note": null,
       "score": 9.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "api-ikuncode-cc",
+      "name": "api.ikuncode.cc",
+      "url": "https://api.ikuncode.cc",
+      "final_url": "https://api.ikuncode.cc",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "new-api",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 489,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-need-key"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.3,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "xeduapi-com",
+      "name": "xeduapi.com",
+      "url": "https://xeduapi.com",
+      "final_url": "https://xeduapi.com",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "new-api",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 564,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-need-key"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.3,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "co-yes-vg",
+      "name": "Loading...",
+      "url": "https://co.yes.vg",
+      "final_url": "https://co.yes.vg",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 582,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-need-key"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.3,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "unifiedapi-cloud",
+      "name": "unifiedapi.cloud",
+      "url": "https://unifiedapi.cloud",
+      "final_url": "https://unifiedapi.cloud",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "new-api",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 592,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-need-key"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.3,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "apipro-maynor1024-live",
+      "name": "欢迎来到 MomoAPI",
+      "url": "https://apipro.maynor1024.live",
+      "final_url": "https://tryallapi.com/",
+      "region": "cn",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 622,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-auth"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.3,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "api-mixrai-com",
+      "name": "MixrAI",
+      "url": "https://api.mixrai.com",
+      "final_url": "https://api.mixrai.com",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "new-api",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 623,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-need-key"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.3,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "api-nio-gs",
+      "name": "Nio API",
+      "url": "https://api.nio.gs",
+      "final_url": "https://api.nio.gs",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "new-api",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 629,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-need-key"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.3,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "onetoken-one",
+      "name": "OneToken",
+      "url": "https://onetoken.one",
+      "final_url": "https://onetoken.one",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "new-api",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 644,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-need-key"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.3,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "api-ai-gaochao-cn",
+      "name": "数标标API",
+      "url": "https://api.ai-gaochao.cn",
+      "final_url": "https://api.ai-gaochao.cn",
+      "region": "cn",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 1144,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-need-key"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.3,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "api-moonshot-cn",
+      "name": "api-moonshot-cn",
+      "url": "https://api.moonshot.cn",
+      "final_url": "https://api.moonshot.cn",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 1160,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-need-key"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.3,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "anyrouter-top",
@@ -2736,7 +2639,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 2139,
+      "took_ms": 1323,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -2753,7 +2656,71 @@
       "note": null,
       "score": 9.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "api-chatanywhere-tech",
+      "name": "ChatAnywhere",
+      "url": "https://api.chatanywhere.tech",
+      "final_url": "https://chatanywhere.tech/",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 1359,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-need-key"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.3,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "new-050602-xyz",
+      "name": "LingxiCode",
+      "url": "https://new.050602.xyz",
+      "final_url": "https://new.050602.xyz",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "new-api",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 1482,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-need-key"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.3,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "chatfire-cn",
@@ -2768,7 +2735,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 2264,
+      "took_ms": 1848,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -2785,7 +2752,7 @@
       "note": null,
       "score": 9.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "api-dzzi-ai",
@@ -2800,7 +2767,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 132,
+      "took_ms": 186,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -2817,7 +2784,7 @@
       "note": null,
       "score": 9.0,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "api1-zhtec-xyz",
@@ -2832,71 +2799,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 249,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-auth"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 26,
-        "uptime_pct": 86.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.0,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "api-deerapi-com",
-      "name": "api.deerapi.com",
-      "url": "https://api.deerapi.com",
-      "final_url": "https://api.deerapi.com",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "new-api",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 305,
-      "has_api": true,
-      "probe": {
-        "status": 401,
-        "path": "/v1/models",
-        "hint": "401-need-key"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 28,
-        "uptime_pct": 93.3,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 9.0,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "api-wlai-vip",
-      "name": "YUNWU.AI (云雾 API)",
-      "url": "https://api.wlai.vip",
-      "final_url": "https://api.wlai.vip",
-      "region": "cn",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 369,
+      "took_ms": 234,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -2913,13 +2816,45 @@
       "note": null,
       "score": 9.0,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "xcode-best",
-      "name": "Xcode",
-      "url": "https://xcode.best",
-      "final_url": "https://xcode.best",
+      "slug": "api-wlai-vip",
+      "name": "YUNWU.AI (云雾 API)",
+      "url": "https://api.wlai.vip",
+      "final_url": "https://api.wlai.vip",
+      "region": "cn",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 285,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-auth"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 27,
+        "uptime_pct": 90.0,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.0,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "api-deerapi-com",
+      "name": "api.deerapi.com",
+      "url": "https://api.deerapi.com",
+      "final_url": "https://api.deerapi.com",
       "region": "global",
       "payment": [],
       "models_signaled": [],
@@ -2928,7 +2863,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 506,
+      "took_ms": 335,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -2945,7 +2880,7 @@
       "note": null,
       "score": 9.0,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "open-xiaojingai-com",
@@ -2960,7 +2895,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 665,
+      "took_ms": 559,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -2977,7 +2912,7 @@
       "note": null,
       "score": 9.0,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "api-pumpkinaigc-online",
@@ -2992,7 +2927,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 707,
+      "took_ms": 625,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -3009,14 +2944,14 @@
       "note": null,
       "score": 9.0,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "deerapi-com",
-      "name": "DeerAPI (小鹿API)",
-      "url": "https://deerapi.com",
-      "final_url": "https://api.deerapi.com/",
-      "region": "cn",
+      "slug": "xcode-best",
+      "name": "Xcode",
+      "url": "https://xcode.best",
+      "final_url": "https://xcode.best",
+      "region": "global",
       "payment": [],
       "models_signaled": [],
       "real_models_count": 0,
@@ -3024,7 +2959,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 976,
+      "took_ms": 712,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -3041,7 +2976,39 @@
       "note": null,
       "score": 9.0,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "deerapi-com",
+      "name": "DeerAPI (小鹿API)",
+      "url": "https://deerapi.com",
+      "final_url": "https://api.deerapi.com/",
+      "region": "cn",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "new-api",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 854,
+      "has_api": true,
+      "probe": {
+        "status": 401,
+        "path": "/v1/models",
+        "hint": "401-need-key"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 28,
+        "uptime_pct": 93.3,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 9.0,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "dawclaudecode-com",
@@ -3056,7 +3023,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 1229,
+      "took_ms": 1207,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -3073,7 +3040,7 @@
       "note": null,
       "score": 9.0,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "api-oaipro-com",
@@ -3091,7 +3058,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 247,
+      "took_ms": 291,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -3100,15 +3067,15 @@
       },
       "uptime": {
         "window_days": 30,
-        "samples": 22,
-        "uptime_pct": 73.3,
+        "samples": 23,
+        "uptime_pct": 76.7,
         "streak_days": 0
       },
       "upstream": null,
       "note": null,
       "score": 8.8,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "ai-yyds-com",
@@ -3125,7 +3092,7 @@
       "engine": "one-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 305,
+      "took_ms": 249,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -3134,15 +3101,15 @@
       },
       "uptime": {
         "window_days": 30,
-        "samples": 22,
-        "uptime_pct": 73.3,
+        "samples": 23,
+        "uptime_pct": 76.7,
         "streak_days": 0
       },
       "upstream": null,
       "note": null,
       "score": 8.7,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "api-ai-yyds-com",
@@ -3159,7 +3126,7 @@
       "engine": "one-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 325,
+      "took_ms": 306,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -3168,15 +3135,15 @@
       },
       "uptime": {
         "window_days": 30,
-        "samples": 22,
-        "uptime_pct": 73.3,
+        "samples": 23,
+        "uptime_pct": 76.7,
         "streak_days": 0
       },
       "upstream": null,
       "note": null,
       "score": 8.7,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "bytecatcode-org",
@@ -3191,7 +3158,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 723,
+      "took_ms": 1624,
       "has_api": true,
       "probe": {
         "status": 401,
@@ -3200,15 +3167,56 @@
       },
       "uptime": {
         "window_days": 30,
-        "samples": 22,
-        "uptime_pct": 73.3,
+        "samples": 23,
+        "uptime_pct": 76.7,
         "streak_days": 0
       },
       "upstream": null,
       "note": null,
       "score": 8.6,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "closeai-asia-com",
+      "name": "CloseAI",
+      "url": "https://www.closeai-asia.com",
+      "final_url": "https://www.closeai-asia.com",
+      "region": "cn",
+      "payment": [
+        "alipay"
+      ],
+      "models_signaled": [
+        "claude",
+        "gpt",
+        "gemini",
+        "chatgpt",
+        "anthropic",
+        "openai"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 181,
+      "has_api": false,
+      "probe": {
+        "status": null,
+        "path": null,
+        "hint": "no-endpoint"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 8.5,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "docs-apiyi-com",
@@ -3235,7 +3243,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 103,
+      "took_ms": 219,
       "has_api": false,
       "probe": {
         "status": null,
@@ -3252,16 +3260,16 @@
       "note": null,
       "score": 8.5,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "closeai-asia-com",
-      "name": "CloseAI",
-      "url": "https://www.closeai-asia.com",
-      "final_url": "https://www.closeai-asia.com",
+      "slug": "aigocode-com",
+      "name": "AIGoCode",
+      "url": "https://aigocode.com",
+      "final_url": "https://aigocode.com",
       "region": "cn",
       "payment": [
-        "alipay"
+        "wechat"
       ],
       "models_signaled": [
         "claude",
@@ -3269,14 +3277,15 @@
         "gemini",
         "chatgpt",
         "anthropic",
-        "openai"
+        "openai",
+        "grok"
       ],
       "real_models_count": 0,
       "real_models_sample": [],
-      "engine": null,
+      "engine": "openrouter",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 124,
+      "took_ms": 254,
       "has_api": false,
       "probe": {
         "status": null,
@@ -3293,7 +3302,93 @@
       "note": null,
       "score": 8.5,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "llmgateway-io",
+      "name": "LLM Gateway — Open-Source LLM API Gateway for 250+ Models",
+      "url": "https://llmgateway.io",
+      "final_url": "https://llmgateway.io",
+      "region": "global",
+      "payment": [
+        "card"
+      ],
+      "models_signaled": [
+        "claude",
+        "gpt",
+        "gemini",
+        "anthropic",
+        "openai",
+        "deepseek",
+        "qwen",
+        "grok"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "one-api",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 260,
+      "has_api": false,
+      "probe": {
+        "status": null,
+        "path": null,
+        "hint": "no-endpoint"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 8.5,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "megallm-io",
+      "name": "MegaLLM",
+      "url": "https://megallm.io",
+      "final_url": "https://megallm.io",
+      "region": "global",
+      "payment": [
+        "card"
+      ],
+      "models_signaled": [
+        "claude",
+        "gpt",
+        "gemini",
+        "anthropic",
+        "openai",
+        "mistral",
+        "grok",
+        "llama"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "one-api",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 263,
+      "has_api": false,
+      "probe": {
+        "status": null,
+        "path": null,
+        "hint": "no-endpoint"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 8.5,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "poloapi-com",
@@ -3321,7 +3416,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 125,
+      "took_ms": 298,
       "has_api": false,
       "probe": {
         "status": null,
@@ -3338,50 +3433,7 @@
       "note": null,
       "score": 8.5,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "aigocode-com",
-      "name": "AIGoCode",
-      "url": "https://aigocode.com",
-      "final_url": "https://aigocode.com",
-      "region": "cn",
-      "payment": [
-        "wechat"
-      ],
-      "models_signaled": [
-        "claude",
-        "gpt",
-        "gemini",
-        "chatgpt",
-        "anthropic",
-        "openai",
-        "qwen",
-        "grok"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "openrouter",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 162,
-      "has_api": false,
-      "probe": {
-        "status": null,
-        "path": null,
-        "hint": "no-endpoint"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 8.5,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "quickrouter-ai",
@@ -3412,7 +3464,7 @@
       "engine": "openrouter",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 204,
+      "took_ms": 508,
       "has_api": false,
       "probe": {
         "status": null,
@@ -3429,219 +3481,7 @@
       "note": null,
       "score": 8.5,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "llmgateway-io",
-      "name": "LLM Gateway — Open-Source LLM API Gateway for 250+ Models",
-      "url": "https://llmgateway.io",
-      "final_url": "https://llmgateway.io",
-      "region": "global",
-      "payment": [
-        "card"
-      ],
-      "models_signaled": [
-        "claude",
-        "gpt",
-        "gemini",
-        "anthropic",
-        "openai",
-        "deepseek",
-        "qwen",
-        "grok"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "one-api",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 267,
-      "has_api": false,
-      "probe": {
-        "status": null,
-        "path": null,
-        "hint": "no-endpoint"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 8.5,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "litellm-ai",
-      "name": "litellm-ai",
-      "url": "https://litellm.ai",
-      "final_url": "https://www.litellm.ai/",
-      "region": "global",
-      "payment": [
-        "crypto"
-      ],
-      "models_signaled": [
-        "claude",
-        "gpt",
-        "gemini",
-        "anthropic",
-        "openai",
-        "mistral",
-        "llama"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "one-api",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 319,
-      "has_api": false,
-      "probe": {
-        "status": null,
-        "path": null,
-        "hint": "no-endpoint"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 8.5,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "github-com-berriai-litellm",
-      "name": "GitHub (berriai/litellm)",
-      "url": "https://github.com/berriai/litellm",
-      "final_url": "https://github.com/berriai/litellm",
-      "region": "global",
-      "payment": [
-        "card"
-      ],
-      "models_signaled": [
-        "claude",
-        "gpt",
-        "gemini",
-        "anthropic",
-        "openai"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "litellm",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 515,
-      "has_api": false,
-      "probe": {
-        "status": null,
-        "path": null,
-        "hint": "github-repo"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 8.5,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "ominigate-com",
-      "name": "OminiGate",
-      "url": "https://ominigate.com",
-      "final_url": "https://ominigate.ai/en",
-      "region": "global",
-      "payment": [
-        "card"
-      ],
-      "models_signaled": [
-        "claude",
-        "gpt",
-        "gemini",
-        "anthropic",
-        "openai",
-        "deepseek",
-        "qwen",
-        "mistral"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "one-api",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 530,
-      "has_api": false,
-      "probe": {
-        "status": null,
-        "path": null,
-        "hint": "no-endpoint"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 8.5,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "github-com-songquanpeng-one-api",
-      "name": "GitHub (songquanpeng/one-api)",
-      "url": "https://github.com/songquanpeng/one-api",
-      "final_url": "https://github.com/songquanpeng/one-api",
-      "region": "cn",
-      "payment": [
-        "wechat"
-      ],
-      "models_signaled": [
-        "claude",
-        "gpt",
-        "gemini",
-        "chatgpt",
-        "anthropic",
-        "openai",
-        "deepseek",
-        "mistral",
-        "llama"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "one-api",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 578,
-      "has_api": false,
-      "probe": {
-        "status": null,
-        "path": null,
-        "hint": "github-repo"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 8.5,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "gpt-ge",
@@ -3668,7 +3508,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 579,
+      "took_ms": 531,
       "has_api": false,
       "probe": {
         "status": null,
@@ -3685,7 +3525,133 @@
       "note": null,
       "score": 8.5,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "litellm-ai",
+      "name": "litellm-ai",
+      "url": "https://litellm.ai",
+      "final_url": "https://www.litellm.ai/",
+      "region": "global",
+      "payment": [
+        "crypto"
+      ],
+      "models_signaled": [
+        "claude",
+        "gpt",
+        "gemini",
+        "anthropic",
+        "openai",
+        "mistral",
+        "llama"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "one-api",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 571,
+      "has_api": false,
+      "probe": {
+        "status": null,
+        "path": null,
+        "hint": "no-endpoint"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 8.5,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "github-com-berriai-litellm",
+      "name": "GitHub (berriai/litellm)",
+      "url": "https://github.com/berriai/litellm",
+      "final_url": "https://github.com/berriai/litellm",
+      "region": "global",
+      "payment": [
+        "card"
+      ],
+      "models_signaled": [
+        "claude",
+        "gpt",
+        "gemini",
+        "anthropic",
+        "openai"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "litellm",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 687,
+      "has_api": false,
+      "probe": {
+        "status": null,
+        "path": null,
+        "hint": "github-repo"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 8.5,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "github-com-songquanpeng-one-api",
+      "name": "GitHub (songquanpeng/one-api)",
+      "url": "https://github.com/songquanpeng/one-api",
+      "final_url": "https://github.com/songquanpeng/one-api",
+      "region": "cn",
+      "payment": [
+        "wechat"
+      ],
+      "models_signaled": [
+        "claude",
+        "gpt",
+        "gemini",
+        "chatgpt",
+        "anthropic",
+        "openai",
+        "deepseek",
+        "mistral",
+        "llama"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "one-api",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 692,
+      "has_api": false,
+      "probe": {
+        "status": null,
+        "path": null,
+        "hint": "github-repo"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 8.5,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "github-com-helicone-helicone",
@@ -3709,7 +3675,7 @@
       "engine": "one-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 617,
+      "took_ms": 735,
       "has_api": false,
       "probe": {
         "status": null,
@@ -3726,7 +3692,7 @@
       "note": null,
       "score": 8.5,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "github-com-calcium-ion-new-api",
@@ -3750,7 +3716,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 812,
+      "took_ms": 784,
       "has_api": false,
       "probe": {
         "status": null,
@@ -3767,13 +3733,13 @@
       "note": null,
       "score": 8.5,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "megallm-io",
-      "name": "MegaLLM",
-      "url": "https://megallm.io",
-      "final_url": "https://megallm.io",
+      "slug": "ominigate-com",
+      "name": "OminiGate",
+      "url": "https://ominigate.com",
+      "final_url": "https://ominigate.ai/en",
       "region": "global",
       "payment": [
         "card"
@@ -3784,16 +3750,16 @@
         "gemini",
         "anthropic",
         "openai",
-        "mistral",
-        "grok",
-        "llama"
+        "deepseek",
+        "qwen",
+        "mistral"
       ],
       "real_models_count": 0,
       "real_models_sample": [],
       "engine": "one-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 1049,
+      "took_ms": 934,
       "has_api": false,
       "probe": {
         "status": null,
@@ -3810,49 +3776,7 @@
       "note": null,
       "score": 8.5,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "apicore-ai",
-      "name": "apicore-ai",
-      "url": "https://www.apicore.ai",
-      "final_url": "https://apimart.ai/",
-      "region": "global",
-      "payment": [
-        "wechat",
-        "card"
-      ],
-      "models_signaled": [
-        "claude",
-        "gpt",
-        "gemini",
-        "anthropic",
-        "openai",
-        "qwen"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "one-api",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 1167,
-      "has_api": false,
-      "probe": {
-        "status": 200,
-        "path": "/v1/models",
-        "hint": "html-on-/v1/models"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 8.5,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "derouter-ai",
@@ -3878,7 +3802,7 @@
       "engine": "dify",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 1178,
+      "took_ms": 1182,
       "has_api": false,
       "probe": {
         "status": null,
@@ -3895,7 +3819,49 @@
       "note": null,
       "score": 8.5,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "apicore-ai",
+      "name": "apicore-ai",
+      "url": "https://www.apicore.ai",
+      "final_url": "https://apimart.ai/",
+      "region": "global",
+      "payment": [
+        "wechat",
+        "card"
+      ],
+      "models_signaled": [
+        "claude",
+        "gpt",
+        "gemini",
+        "anthropic",
+        "openai",
+        "qwen"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "one-api",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 1357,
+      "has_api": false,
+      "probe": {
+        "status": 200,
+        "path": "/v1/models",
+        "hint": "html-on-/v1/models"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 8.5,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "302-ai",
@@ -3921,7 +3887,7 @@
       "engine": "chatnext-web",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 1519,
+      "took_ms": 1420,
       "has_api": false,
       "probe": {
         "status": 200,
@@ -3938,7 +3904,7 @@
       "note": null,
       "score": 8.5,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "jiekou-ai",
@@ -3969,7 +3935,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 1724,
+      "took_ms": 1606,
       "has_api": false,
       "probe": {
         "status": null,
@@ -3986,7 +3952,7 @@
       "note": null,
       "score": 8.5,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "poixe-com",
@@ -4008,7 +3974,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 110,
+      "took_ms": 152,
       "has_api": false,
       "probe": {
         "status": 200,
@@ -4025,7 +3991,7 @@
       "note": null,
       "score": 8.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "requesty-ai",
@@ -4047,7 +4013,7 @@
       "engine": "one-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 150,
+      "took_ms": 263,
       "has_api": false,
       "probe": {
         "status": null,
@@ -4064,124 +4030,7 @@
       "note": null,
       "score": 8.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "cubence-com",
-      "name": "Cubence",
-      "url": "https://cubence.com",
-      "final_url": "https://cubence.com/en",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [
-        "claude",
-        "gemini",
-        "anthropic",
-        "openai",
-        "deepseek",
-        "qwen"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 402,
-      "has_api": false,
-      "probe": {
-        "status": null,
-        "path": null,
-        "hint": "no-endpoint"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 8.3,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "github-com-portkey-ai-gateway",
-      "name": "GitHub (Portkey-Ai/gateway)",
-      "url": "https://github.com/Portkey-Ai/gateway",
-      "final_url": "https://github.com/Portkey-Ai/gateway",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [
-        "claude",
-        "gpt",
-        "gemini",
-        "anthropic",
-        "openai",
-        "mistral",
-        "llama"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "portkey",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 575,
-      "has_api": false,
-      "probe": {
-        "status": null,
-        "path": null,
-        "hint": "github-repo"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 8.3,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "github-com-labring-fastgpt",
-      "name": "GitHub (labring/FastGPT)",
-      "url": "https://github.com/labring/FastGPT",
-      "final_url": "https://github.com/labring/FastGPT",
-      "region": "cn",
-      "payment": [],
-      "models_signaled": [
-        "claude",
-        "gpt",
-        "openai",
-        "deepseek",
-        "qwen"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "fastgpt",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 586,
-      "has_api": false,
-      "probe": {
-        "status": null,
-        "path": null,
-        "hint": "github-repo"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 8.3,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "ofox-ai",
@@ -4206,7 +4055,7 @@
       "engine": "one-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 590,
+      "took_ms": 303,
       "has_api": false,
       "probe": {
         "status": null,
@@ -4223,7 +4072,163 @@
       "note": null,
       "score": 8.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "cubence-com",
+      "name": "Cubence",
+      "url": "https://cubence.com",
+      "final_url": "https://cubence.com/en",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [
+        "claude",
+        "gemini",
+        "anthropic",
+        "openai",
+        "deepseek",
+        "qwen"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 368,
+      "has_api": false,
+      "probe": {
+        "status": null,
+        "path": null,
+        "hint": "no-endpoint"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 8.3,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "github-com-portkey-ai-gateway",
+      "name": "GitHub (Portkey-Ai/gateway)",
+      "url": "https://github.com/Portkey-Ai/gateway",
+      "final_url": "https://github.com/Portkey-Ai/gateway",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [
+        "claude",
+        "gpt",
+        "gemini",
+        "anthropic",
+        "openai",
+        "mistral",
+        "llama"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "portkey",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 708,
+      "has_api": false,
+      "probe": {
+        "status": null,
+        "path": null,
+        "hint": "github-repo"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 8.3,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "github-com-labring-fastgpt",
+      "name": "GitHub (labring/FastGPT)",
+      "url": "https://github.com/labring/FastGPT",
+      "final_url": "https://github.com/labring/FastGPT",
+      "region": "cn",
+      "payment": [],
+      "models_signaled": [
+        "claude",
+        "gpt",
+        "openai",
+        "deepseek",
+        "qwen"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "fastgpt",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 839,
+      "has_api": false,
+      "probe": {
+        "status": null,
+        "path": null,
+        "hint": "github-repo"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 8.3,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "holysheep-ai",
+      "name": "HolySheep AI",
+      "url": "https://holysheep.ai",
+      "final_url": "https://www.holysheep.ai/",
+      "region": "cn",
+      "payment": [],
+      "models_signaled": [
+        "claude",
+        "gpt",
+        "anthropic",
+        "openai",
+        "deepseek",
+        "qwen"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 894,
+      "has_api": false,
+      "probe": {
+        "status": 200,
+        "path": "/v1/models",
+        "hint": "html-on-/v1/models"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 8.3,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "uiuiapi-com",
@@ -4247,7 +4252,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 1195,
+      "took_ms": 1169,
       "has_api": false,
       "probe": {
         "status": null,
@@ -4264,46 +4269,7 @@
       "note": null,
       "score": 8.3,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "holysheep-ai",
-      "name": "HolySheep AI",
-      "url": "https://holysheep.ai",
-      "final_url": "https://www.holysheep.ai/",
-      "region": "cn",
-      "payment": [],
-      "models_signaled": [
-        "claude",
-        "gpt",
-        "anthropic",
-        "openai",
-        "deepseek",
-        "qwen"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 1754,
-      "has_api": false,
-      "probe": {
-        "status": 200,
-        "path": "/v1/models",
-        "hint": "html-on-/v1/models"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 8.3,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "apiyi-com",
@@ -4323,7 +4289,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 279,
+      "took_ms": 397,
       "has_api": false,
       "probe": {
         "status": null,
@@ -4340,7 +4306,7 @@
       "note": null,
       "score": 8.2,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "github-com-quantumnous-new-api",
@@ -4364,7 +4330,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 570,
+      "took_ms": 732,
       "has_api": false,
       "probe": {
         "status": null,
@@ -4381,7 +4347,7 @@
       "note": null,
       "score": 8.2,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "aigc2d-com",
@@ -4400,7 +4366,7 @@
       "engine": "one-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 62,
+      "took_ms": 140,
       "has_api": false,
       "probe": {
         "status": 200,
@@ -4417,7 +4383,7 @@
       "note": null,
       "score": 8.1,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "apizhongzhuan-com",
@@ -4436,7 +4402,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 1428,
+      "took_ms": 1118,
       "has_api": false,
       "probe": {
         "status": 200,
@@ -4453,89 +4419,7 @@
       "note": null,
       "score": 8.1,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "aiproxy-io",
-      "name": "aiproxy-io",
-      "url": "https://aiproxy.io",
-      "final_url": "https://aiproxy.io",
-      "region": "cn",
-      "payment": [],
-      "models_signaled": [
-        "claude",
-        "gpt",
-        "gemini",
-        "chatgpt",
-        "anthropic",
-        "openai",
-        "deepseek",
-        "grok"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "one-api",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 710,
-      "has_api": false,
-      "probe": {
-        "status": null,
-        "path": null,
-        "hint": "no-endpoint"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 25,
-        "uptime_pct": 83.3,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 8.0,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "api-aiproxy-io",
-      "name": "api-aiproxy-io",
-      "url": "https://api.aiproxy.io",
-      "final_url": "https://aiproxy.io/",
-      "region": "cn",
-      "payment": [],
-      "models_signaled": [
-        "claude",
-        "gpt",
-        "gemini",
-        "chatgpt",
-        "anthropic",
-        "openai",
-        "deepseek",
-        "grok"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "one-api",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 1264,
-      "has_api": false,
-      "probe": {
-        "status": 200,
-        "path": "/v1/models",
-        "hint": "html-on-/v1/models"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 25,
-        "uptime_pct": 83.3,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 8.0,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "helicone-ai",
@@ -4559,7 +4443,7 @@
       "engine": "litellm",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 274,
+      "took_ms": 477,
       "has_api": false,
       "probe": {
         "status": null,
@@ -4576,7 +4460,7 @@
       "note": null,
       "score": 7.8,
       "verdict": "probable_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "aicodemirror-com",
@@ -4603,7 +4487,7 @@
       "engine": "new-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 1068,
+      "took_ms": 617,
       "has_api": false,
       "probe": {
         "status": null,
@@ -4612,15 +4496,15 @@
       },
       "uptime": {
         "window_days": 30,
-        "samples": 22,
-        "uptime_pct": 73.3,
+        "samples": 23,
+        "uptime_pct": 76.7,
         "streak_days": 0
       },
       "upstream": null,
       "note": null,
       "score": 7.8,
       "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "aigc369-com",
@@ -4643,7 +4527,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 1350,
+      "took_ms": 1891,
       "has_api": false,
       "probe": {
         "status": null,
@@ -4660,7 +4544,45 @@
       "note": null,
       "score": 7.8,
       "verdict": "probable_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "ifopen-ai",
+      "name": "开物导航 · ifopen",
+      "url": "https://ifopen.ai",
+      "final_url": "https://ifopen.ai",
+      "region": "cn",
+      "payment": [
+        "crypto"
+      ],
+      "models_signaled": [
+        "claude",
+        "openai",
+        "llama"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 265,
+      "has_api": false,
+      "probe": {
+        "status": null,
+        "path": null,
+        "hint": "no-endpoint"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 20,
+        "uptime_pct": 66.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 7.6,
+      "verdict": "likely_relay",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "chatbox-ai",
@@ -4683,7 +4605,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 415,
+      "took_ms": 632,
       "has_api": false,
       "probe": {
         "status": null,
@@ -4700,45 +4622,7 @@
       "note": null,
       "score": 7.6,
       "verdict": "probable_relay",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "ifopen-ai",
-      "name": "开物导航 · ifopen",
-      "url": "https://ifopen.ai",
-      "final_url": "https://ifopen.ai",
-      "region": "cn",
-      "payment": [
-        "crypto"
-      ],
-      "models_signaled": [
-        "claude",
-        "openai",
-        "llama"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 481,
-      "has_api": false,
-      "probe": {
-        "status": null,
-        "path": null,
-        "hint": "no-endpoint"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 19,
-        "uptime_pct": 63.3,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 7.6,
-      "verdict": "likely_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "azapi-com-cn",
@@ -4757,7 +4641,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 562,
+      "took_ms": 483,
       "has_api": false,
       "probe": {
         "status": null,
@@ -4774,7 +4658,7 @@
       "note": null,
       "score": 7.4,
       "verdict": "probable_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "aimlapi-com",
@@ -4797,7 +4681,7 @@
       "engine": "one-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 762,
+      "took_ms": 941,
       "has_api": false,
       "probe": {
         "status": null,
@@ -4806,15 +4690,15 @@
       },
       "uptime": {
         "window_days": 30,
-        "samples": 18,
-        "uptime_pct": 60.0,
+        "samples": 19,
+        "uptime_pct": 63.3,
         "streak_days": 0
       },
       "upstream": null,
       "note": null,
       "score": 6.9,
       "verdict": "probable_relay",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "deepinfra-com",
@@ -4837,7 +4721,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 102,
+      "took_ms": 325,
       "has_api": false,
       "probe": {
         "status": null,
@@ -4854,45 +4738,7 @@
       "note": null,
       "score": 6.8,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "replicate-com",
-      "name": "Replicate",
-      "url": "https://www.replicate.com",
-      "final_url": "https://replicate.com/",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [
-        "claude",
-        "gpt",
-        "anthropic",
-        "openai",
-        "grok"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 315,
-      "has_api": false,
-      "probe": {
-        "status": null,
-        "path": null,
-        "hint": "no-endpoint"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 6.8,
-      "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "cerebras-ai",
@@ -4913,7 +4759,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 348,
+      "took_ms": 466,
       "has_api": false,
       "probe": {
         "status": null,
@@ -4930,7 +4776,7 @@
       "note": null,
       "score": 6.8,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "cortex-so",
@@ -4956,7 +4802,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 519,
+      "took_ms": 534,
       "has_api": false,
       "probe": {
         "status": 200,
@@ -4973,7 +4819,45 @@
       "note": null,
       "score": 6.8,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "replicate-com",
+      "name": "Replicate",
+      "url": "https://www.replicate.com",
+      "final_url": "https://replicate.com/",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [
+        "claude",
+        "gpt",
+        "anthropic",
+        "openai",
+        "grok"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 596,
+      "has_api": false,
+      "probe": {
+        "status": null,
+        "path": null,
+        "hint": "no-endpoint"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 6.8,
+      "verdict": "needs_review",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "github-com-langgenius-dify",
@@ -4995,7 +4879,7 @@
       "engine": "dify",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 1001,
+      "took_ms": 720,
       "has_api": false,
       "probe": {
         "status": null,
@@ -5012,7 +4896,7 @@
       "note": null,
       "score": 6.8,
       "verdict": "open_source_tool",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "github-com-voltagent-voltagent",
@@ -5034,7 +4918,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 1039,
+      "took_ms": 749,
       "has_api": false,
       "probe": {
         "status": null,
@@ -5051,7 +4935,7 @@
       "note": null,
       "score": 6.8,
       "verdict": "open_source_tool",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "ccfly-codes",
@@ -5071,7 +4955,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 243,
+      "took_ms": 460,
       "has_api": false,
       "probe": {
         "status": 200,
@@ -5088,7 +4972,7 @@
       "note": null,
       "score": 6.7,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "together-ai",
@@ -5108,7 +4992,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 277,
+      "took_ms": 587,
       "has_api": false,
       "probe": {
         "status": null,
@@ -5125,7 +5009,7 @@
       "note": null,
       "score": 6.7,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "github-com-langfuse-langfuse",
@@ -5148,7 +5032,7 @@
       "engine": "dify",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 622,
+      "took_ms": 772,
       "has_api": false,
       "probe": {
         "status": null,
@@ -5165,7 +5049,7 @@
       "note": null,
       "score": 6.7,
       "verdict": "open_source_tool",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "opencat-app",
@@ -5184,7 +5068,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 223,
+      "took_ms": 353,
       "has_api": false,
       "probe": {
         "status": null,
@@ -5201,7 +5085,7 @@
       "note": null,
       "score": 6.6,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "fireworks-ai",
@@ -5220,7 +5104,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 445,
+      "took_ms": 986,
       "has_api": false,
       "probe": {
         "status": null,
@@ -5237,7 +5121,7 @@
       "note": null,
       "score": 6.6,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "lorka-ai",
@@ -5256,7 +5140,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 711,
+      "took_ms": 1001,
       "has_api": false,
       "probe": {
         "status": null,
@@ -5273,7 +5157,7 @@
       "note": null,
       "score": 6.6,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "dify-ai",
@@ -5290,7 +5174,7 @@
       "engine": "dify",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 164,
+      "took_ms": 215,
       "has_api": false,
       "probe": {
         "status": null,
@@ -5307,7 +5191,7 @@
       "note": null,
       "score": 6.5,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "deepbricks-ai",
@@ -5325,7 +5209,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 244,
+      "took_ms": 222,
       "has_api": false,
       "probe": {
         "status": 200,
@@ -5342,7 +5226,7 @@
       "note": null,
       "score": 6.5,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "novita-ai",
@@ -5360,7 +5244,7 @@
       "engine": "one-api",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 399,
+      "took_ms": 408,
       "has_api": false,
       "probe": {
         "status": null,
@@ -5377,7 +5261,7 @@
       "note": null,
       "score": 6.5,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "github-com-1panel-dev-maxkb",
@@ -5399,7 +5283,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 471,
+      "took_ms": 696,
       "has_api": false,
       "probe": {
         "status": null,
@@ -5416,7 +5300,7 @@
       "note": null,
       "score": 6.5,
       "verdict": "open_source_tool",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "ai-cloudflare-com-gateway",
@@ -5434,7 +5318,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 550,
+      "took_ms": 703,
       "has_api": false,
       "probe": {
         "status": 200,
@@ -5451,7 +5335,7 @@
       "note": null,
       "score": 6.5,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "sambanova-ai",
@@ -5468,7 +5352,7 @@
       "engine": "dify",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 59,
+      "took_ms": 171,
       "has_api": false,
       "probe": {
         "status": null,
@@ -5485,41 +5369,7 @@
       "note": null,
       "score": 6.4,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "modal-com",
-      "name": "Modal: The platform for production AI",
-      "url": "https://modal.com",
-      "final_url": "https://modal.com",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [
-        "deepseek"
-      ],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 79,
-      "has_api": false,
-      "probe": {
-        "status": null,
-        "path": null,
-        "hint": "no-endpoint"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 6.4,
-      "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "langdb-ai",
@@ -5536,7 +5386,7 @@
       "engine": "langdb",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 94,
+      "took_ms": 195,
       "has_api": false,
       "probe": {
         "status": null,
@@ -5553,24 +5403,24 @@
       "note": null,
       "score": 6.4,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "hyperbolic-xyz",
-      "name": "Hyperbolic — Making Global AI Compute Liquid",
-      "url": "https://hyperbolic.xyz",
-      "final_url": "https://www.hyperbolic.ai/",
+      "slug": "modal-com",
+      "name": "Modal: The platform for production AI",
+      "url": "https://modal.com",
+      "final_url": "https://modal.com",
       "region": "global",
       "payment": [],
       "models_signaled": [
-        "openai"
+        "deepseek"
       ],
       "real_models_count": 0,
       "real_models_sample": [],
-      "engine": "one-api",
+      "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 264,
+      "took_ms": 333,
       "has_api": false,
       "probe": {
         "status": null,
@@ -5587,7 +5437,7 @@
       "note": null,
       "score": 6.4,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "anyscale-com",
@@ -5604,7 +5454,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 284,
+      "took_ms": 337,
       "has_api": false,
       "probe": {
         "status": null,
@@ -5621,7 +5471,41 @@
       "note": null,
       "score": 6.4,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "hyperbolic-xyz",
+      "name": "Hyperbolic — Making Global AI Compute Liquid",
+      "url": "https://hyperbolic.xyz",
+      "final_url": "https://www.hyperbolic.ai/",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [
+        "openai"
+      ],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": "one-api",
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 380,
+      "has_api": false,
+      "probe": {
+        "status": null,
+        "path": null,
+        "hint": "no-endpoint"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 6.4,
+      "verdict": "needs_review",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "siliconflow-com",
@@ -5638,7 +5522,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 355,
+      "took_ms": 423,
       "has_api": false,
       "probe": {
         "status": null,
@@ -5655,7 +5539,7 @@
       "note": null,
       "score": 6.4,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "runpod-io",
@@ -5672,7 +5556,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 412,
+      "took_ms": 423,
       "has_api": false,
       "probe": {
         "status": null,
@@ -5689,7 +5573,7 @@
       "note": null,
       "score": 6.4,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "88code-ai",
@@ -5723,103 +5607,7 @@
       "note": null,
       "score": 6.4,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "portkey-ai",
-      "name": "Production Stack for Gen AI Builders",
-      "url": "https://portkey.ai",
-      "final_url": "https://portkey.ai",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": "portkey",
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 59,
-      "has_api": false,
-      "probe": {
-        "status": null,
-        "path": null,
-        "hint": "no-endpoint"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 6.3,
-      "verdict": "needs_review",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "turnaround-ai",
-      "name": "Zensors",
-      "url": "https://turnaround.ai",
-      "final_url": "https://turnaround.ai",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 83,
-      "has_api": false,
-      "probe": {
-        "status": 200,
-        "path": "/v1/models",
-        "hint": "html-on-/v1/models"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 6.3,
-      "verdict": "needs_review",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "nextweb-dev",
-      "name": "nextweb-dev",
-      "url": "https://nextweb.dev",
-      "final_url": "https://nextweb.dev",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 111,
-      "has_api": false,
-      "probe": {
-        "status": 200,
-        "path": "/v1/models",
-        "hint": "html-on-/v1/models"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 6.3,
-      "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "openpipe-ai",
@@ -5834,7 +5622,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 134,
+      "took_ms": 167,
       "has_api": false,
       "probe": {
         "status": 200,
@@ -5851,71 +5639,7 @@
       "note": null,
       "score": 6.3,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "lambda-ai",
-      "name": "AI compute in the cloud",
-      "url": "https://lambda.ai",
-      "final_url": "https://lambda.com/",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 144,
-      "has_api": false,
-      "probe": {
-        "status": null,
-        "path": null,
-        "hint": "no-endpoint"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 6.3,
-      "verdict": "needs_review",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "token-ai-com",
-      "name": "token-ai-com",
-      "url": "https://token-ai.com",
-      "final_url": "https://token-ai.com",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 144,
-      "has_api": false,
-      "probe": {
-        "status": 200,
-        "path": "/v1/models",
-        "hint": "html-on-/v1/models"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 6.3,
-      "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "langchain-com",
@@ -5930,7 +5654,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 154,
+      "took_ms": 181,
       "has_api": false,
       "probe": {
         "status": null,
@@ -5947,135 +5671,7 @@
       "note": null,
       "score": 6.3,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "chatgptid-com",
-      "name": "chatgptid-com",
-      "url": "https://chatgptid.com",
-      "final_url": "https://chatgptid.com",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 159,
-      "has_api": false,
-      "probe": {
-        "status": 200,
-        "path": "/v1/models",
-        "hint": "html-on-/v1/models"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 6.3,
-      "verdict": "needs_review",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "openai-sb-com",
-      "name": "Redirecting...",
-      "url": "https://www.openai-sb.com",
-      "final_url": "https://www.openai-sb.com",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 160,
-      "has_api": false,
-      "probe": {
-        "status": 200,
-        "path": "/v1/models",
-        "hint": "html-on-/v1/models"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 6.3,
-      "verdict": "needs_review",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "groq-com",
-      "name": "Groq is the premier neocloud for fast inference",
-      "url": "https://groq.com",
-      "final_url": "https://groq.com",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 163,
-      "has_api": false,
-      "probe": {
-        "status": null,
-        "path": null,
-        "hint": "no-endpoint"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 6.3,
-      "verdict": "needs_review",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "reka-ai",
-      "name": "Reka",
-      "url": "https://reka.ai",
-      "final_url": "https://reka.ai",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 167,
-      "has_api": false,
-      "probe": {
-        "status": null,
-        "path": null,
-        "hint": "no-endpoint"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 6.3,
-      "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "datarobot-com",
@@ -6090,7 +5686,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 182,
+      "took_ms": 206,
       "has_api": false,
       "probe": {
         "status": null,
@@ -6107,13 +5703,13 @@
       "note": null,
       "score": 6.3,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "cursorai-art",
-      "name": "辣椒炒肉",
-      "url": "https://cursorai.art",
-      "final_url": "https://cursorai.art",
+      "slug": "turnaround-ai",
+      "name": "Zensors",
+      "url": "https://turnaround.ai",
+      "final_url": "https://turnaround.ai",
       "region": "global",
       "payment": [],
       "models_signaled": [],
@@ -6122,7 +5718,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 192,
+      "took_ms": 206,
       "has_api": false,
       "probe": {
         "status": 200,
@@ -6139,13 +5735,13 @@
       "note": null,
       "score": 6.3,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "lepton-ai",
-      "name": "Connect Developers to Global GPU Compute",
-      "url": "https://lepton.ai",
-      "final_url": "https://www.nvidia.com/en-us/data-center/dgx-cloud-lepton/",
+      "slug": "nextweb-dev",
+      "name": "nextweb-dev",
+      "url": "https://nextweb.dev",
+      "final_url": "https://nextweb.dev",
       "region": "global",
       "payment": [],
       "models_signaled": [],
@@ -6154,12 +5750,12 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 307,
+      "took_ms": 224,
       "has_api": false,
       "probe": {
-        "status": null,
-        "path": null,
-        "hint": "no-endpoint"
+        "status": 200,
+        "path": "/v1/models",
+        "hint": "html-on-/v1/models"
       },
       "uptime": {
         "window_days": 30,
@@ -6171,7 +5767,71 @@
       "note": null,
       "score": 6.3,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "openai-sb-com",
+      "name": "Redirecting...",
+      "url": "https://www.openai-sb.com",
+      "final_url": "https://www.openai-sb.com",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 238,
+      "has_api": false,
+      "probe": {
+        "status": 200,
+        "path": "/v1/models",
+        "hint": "html-on-/v1/models"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 6.3,
+      "verdict": "needs_review",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "token-ai-com",
+      "name": "token-ai-com",
+      "url": "https://token-ai.com",
+      "final_url": "https://token-ai.com",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 238,
+      "has_api": false,
+      "probe": {
+        "status": 200,
+        "path": "/v1/models",
+        "hint": "html-on-/v1/models"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 6.3,
+      "verdict": "needs_review",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "gptgod-online",
@@ -6186,7 +5846,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 377,
+      "took_ms": 260,
       "has_api": false,
       "probe": {
         "status": 200,
@@ -6203,13 +5863,13 @@
       "note": null,
       "score": 6.3,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "portal-qiniu-com-ai",
-      "name": "七牛云开发者平台",
-      "url": "https://portal.qiniu.com/ai",
-      "final_url": "https://portal.qiniu.com/ai",
+      "slug": "chatgptid-com",
+      "name": "chatgptid-com",
+      "url": "https://chatgptid.com",
+      "final_url": "https://chatgptid.com",
       "region": "global",
       "payment": [],
       "models_signaled": [],
@@ -6218,7 +5878,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 652,
+      "took_ms": 279,
       "has_api": false,
       "probe": {
         "status": 200,
@@ -6235,54 +5895,22 @@
       "note": null,
       "score": 6.3,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "api-tomchat-fun",
-      "name": "api-tomchat-fun",
-      "url": "https://api.tomchat.fun",
-      "final_url": "https://api.tomchat.fun",
+      "slug": "portkey-ai",
+      "name": "Production Stack for Gen AI Builders",
+      "url": "https://portkey.ai",
+      "final_url": "https://portkey.ai",
       "region": "global",
       "payment": [],
       "models_signaled": [],
       "real_models_count": 0,
       "real_models_sample": [],
-      "engine": null,
+      "engine": "portkey",
       "reachable": true,
       "http_status": 200,
-      "took_ms": 714,
-      "has_api": false,
-      "probe": {
-        "status": 200,
-        "path": "/v1/models",
-        "hint": "html-on-/v1/models"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 29,
-        "uptime_pct": 96.7,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 6.3,
-      "verdict": "needs_review",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "kodbase-com",
-      "name": "kodbase-com",
-      "url": "https://kodbase.com",
-      "final_url": "https://kodbase.com",
-      "region": "global",
-      "payment": [],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 727,
+      "took_ms": 302,
       "has_api": false,
       "probe": {
         "status": null,
@@ -6299,13 +5927,13 @@
       "note": null,
       "score": 6.3,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "ssvip-xyz",
-      "name": "Vaultwarden Web",
-      "url": "https://ssvip.xyz",
-      "final_url": "https://ssvip.xyz",
+      "slug": "lambda-ai",
+      "name": "AI compute in the cloud",
+      "url": "https://lambda.ai",
+      "final_url": "https://lambda.com/",
       "region": "global",
       "payment": [],
       "models_signaled": [],
@@ -6314,7 +5942,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 747,
+      "took_ms": 317,
       "has_api": false,
       "probe": {
         "status": null,
@@ -6331,7 +5959,135 @@
       "note": null,
       "score": 6.3,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "reka-ai",
+      "name": "Reka",
+      "url": "https://reka.ai",
+      "final_url": "https://reka.ai",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 324,
+      "has_api": false,
+      "probe": {
+        "status": null,
+        "path": null,
+        "hint": "no-endpoint"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 6.3,
+      "verdict": "needs_review",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "groq-com",
+      "name": "Groq is the premier neocloud for fast inference",
+      "url": "https://groq.com",
+      "final_url": "https://groq.com",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 336,
+      "has_api": false,
+      "probe": {
+        "status": null,
+        "path": null,
+        "hint": "no-endpoint"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 6.3,
+      "verdict": "needs_review",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "cursorai-art",
+      "name": "辣椒炒肉",
+      "url": "https://cursorai.art",
+      "final_url": "https://cursorai.art",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 502,
+      "has_api": false,
+      "probe": {
+        "status": 200,
+        "path": "/v1/models",
+        "hint": "html-on-/v1/models"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 6.3,
+      "verdict": "needs_review",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "lepton-ai",
+      "name": "Connect Developers to Global GPU Compute",
+      "url": "https://lepton.ai",
+      "final_url": "https://www.nvidia.com/en-us/data-center/dgx-cloud-lepton/",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 545,
+      "has_api": false,
+      "probe": {
+        "status": null,
+        "path": null,
+        "hint": "no-endpoint"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 6.3,
+      "verdict": "needs_review",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "open-bigmodel-cn",
@@ -6346,7 +6102,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 807,
+      "took_ms": 573,
       "has_api": false,
       "probe": {
         "status": 200,
@@ -6363,7 +6119,103 @@
       "note": null,
       "score": 6.3,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "kodbase-com",
+      "name": "kodbase-com",
+      "url": "https://kodbase.com",
+      "final_url": "https://kodbase.com",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 596,
+      "has_api": false,
+      "probe": {
+        "status": null,
+        "path": null,
+        "hint": "no-endpoint"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 6.3,
+      "verdict": "needs_review",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "portal-qiniu-com-ai",
+      "name": "七牛云开发者平台",
+      "url": "https://portal.qiniu.com/ai",
+      "final_url": "https://portal.qiniu.com/ai",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 772,
+      "has_api": false,
+      "probe": {
+        "status": 200,
+        "path": "/v1/models",
+        "hint": "html-on-/v1/models"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 6.3,
+      "verdict": "needs_review",
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "ssvip-xyz",
+      "name": "Vaultwarden Web",
+      "url": "https://ssvip.xyz",
+      "final_url": "https://ssvip.xyz",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 798,
+      "has_api": false,
+      "probe": {
+        "status": null,
+        "path": null,
+        "hint": "no-endpoint"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 6.3,
+      "verdict": "needs_review",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "foxaigc-com",
@@ -6378,7 +6230,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 934,
+      "took_ms": 830,
       "has_api": false,
       "probe": {
         "status": null,
@@ -6395,14 +6247,14 @@
       "note": null,
       "score": 6.3,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "api-aihao123-cn",
-      "name": "爱好123 · 个人兴趣笔记",
-      "url": "https://api.aihao123.cn",
-      "final_url": "https://api.aihao123.cn",
-      "region": "cn",
+      "slug": "api-tomchat-fun",
+      "name": "api-tomchat-fun",
+      "url": "https://api.tomchat.fun",
+      "final_url": "https://api.tomchat.fun",
+      "region": "global",
       "payment": [],
       "models_signaled": [],
       "real_models_count": 0,
@@ -6410,7 +6262,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 1137,
+      "took_ms": 909,
       "has_api": false,
       "probe": {
         "status": 200,
@@ -6427,14 +6279,14 @@
       "note": null,
       "score": 6.3,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
-      "slug": "yikeapi-com",
-      "name": "易客API市场",
-      "url": "https://yikeapi.com",
-      "final_url": "https://yikeapi.com",
-      "region": "global",
+      "slug": "api-aihao123-cn",
+      "name": "爱好123 · 个人兴趣笔记",
+      "url": "https://api.aihao123.cn",
+      "final_url": "https://api.aihao123.cn",
+      "region": "cn",
       "payment": [],
       "models_signaled": [],
       "real_models_count": 0,
@@ -6442,12 +6294,12 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 1756,
+      "took_ms": 930,
       "has_api": false,
       "probe": {
-        "status": null,
-        "path": null,
-        "hint": "no-endpoint"
+        "status": 200,
+        "path": "/v1/models",
+        "hint": "html-on-/v1/models"
       },
       "uptime": {
         "window_days": 30,
@@ -6459,7 +6311,7 @@
       "note": null,
       "score": 6.3,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "apid-aaife-cn",
@@ -6474,7 +6326,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 404,
-      "took_ms": 2203,
+      "took_ms": 1141,
       "has_api": false,
       "probe": {
         "status": null,
@@ -6491,7 +6343,39 @@
       "note": "Static marketing page — unverified relay; needs evidence of real /v1 endpoint.",
       "score": 6.3,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "yikeapi-com",
+      "name": "易客API市场",
+      "url": "https://yikeapi.com",
+      "final_url": "https://yikeapi.com",
+      "region": "global",
+      "payment": [],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 1689,
+      "has_api": false,
+      "probe": {
+        "status": null,
+        "path": null,
+        "hint": "no-endpoint"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 29,
+        "uptime_pct": 96.7,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 6.3,
+      "verdict": "needs_review",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "siliconflow-cn",
@@ -6510,7 +6394,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 3579,
+      "took_ms": 3083,
       "has_api": false,
       "probe": {
         "status": 200,
@@ -6527,7 +6411,7 @@
       "note": null,
       "score": 6.3,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "codesome-ai",
@@ -6544,7 +6428,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 906,
+      "took_ms": 821,
       "has_api": false,
       "probe": {
         "status": null,
@@ -6561,7 +6445,7 @@
       "note": null,
       "score": 6.1,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "octoml-ai",
@@ -6576,7 +6460,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 431,
+      "took_ms": 523,
       "has_api": false,
       "probe": {
         "status": 200,
@@ -6593,7 +6477,7 @@
       "note": null,
       "score": 6.0,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "octo-ai",
@@ -6608,7 +6492,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 432,
+      "took_ms": 720,
       "has_api": false,
       "probe": {
         "status": 200,
@@ -6625,7 +6509,7 @@
       "note": null,
       "score": 6.0,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "api-whatai-cc",
@@ -6644,7 +6528,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 102,
+      "took_ms": 168,
       "has_api": false,
       "probe": {
         "status": null,
@@ -6653,49 +6537,15 @@
       },
       "uptime": {
         "window_days": 30,
-        "samples": 22,
-        "uptime_pct": 73.3,
+        "samples": 23,
+        "uptime_pct": 76.7,
         "streak_days": 0
       },
       "upstream": null,
       "note": null,
       "score": 5.9,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
-    },
-    {
-      "slug": "api-gptoai-cc",
-      "name": "welcome",
-      "url": "https://api.gptoai.cc",
-      "final_url": "https://gotowww.aipages.dev/8d/?gptoai.cc",
-      "region": "global",
-      "payment": [
-        "wechat"
-      ],
-      "models_signaled": [],
-      "real_models_count": 0,
-      "real_models_sample": [],
-      "engine": null,
-      "reachable": true,
-      "http_status": 200,
-      "took_ms": 141,
-      "has_api": false,
-      "probe": {
-        "status": 200,
-        "path": "/v1/models",
-        "hint": "html-on-/v1/models"
-      },
-      "uptime": {
-        "window_days": 30,
-        "samples": 21,
-        "uptime_pct": 70.0,
-        "streak_days": 0
-      },
-      "upstream": null,
-      "note": null,
-      "score": 5.8,
-      "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "sssaicode-com",
@@ -6713,7 +6563,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 227,
+      "took_ms": 283,
       "has_api": false,
       "probe": {
         "status": 200,
@@ -6722,15 +6572,15 @@
       },
       "uptime": {
         "window_days": 30,
-        "samples": 22,
-        "uptime_pct": 73.3,
+        "samples": 23,
+        "uptime_pct": 76.7,
         "streak_days": 0
       },
       "upstream": null,
       "note": null,
       "score": 5.8,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "oaipro-com",
@@ -6748,7 +6598,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 287,
+      "took_ms": 347,
       "has_api": false,
       "probe": {
         "status": 200,
@@ -6757,15 +6607,49 @@
       },
       "uptime": {
         "window_days": 30,
-        "samples": 22,
-        "uptime_pct": 73.3,
+        "samples": 23,
+        "uptime_pct": 76.7,
         "streak_days": 0
       },
       "upstream": null,
       "note": null,
       "score": 5.8,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
+    },
+    {
+      "slug": "api-gptoai-cc",
+      "name": "welcome",
+      "url": "https://api.gptoai.cc",
+      "final_url": "https://gotowww.aipages.dev/8d/?gptoai.cc",
+      "region": "global",
+      "payment": [
+        "wechat"
+      ],
+      "models_signaled": [],
+      "real_models_count": 0,
+      "real_models_sample": [],
+      "engine": null,
+      "reachable": true,
+      "http_status": 200,
+      "took_ms": 348,
+      "has_api": false,
+      "probe": {
+        "status": 200,
+        "path": "/v1/models",
+        "hint": "html-on-/v1/models"
+      },
+      "uptime": {
+        "window_days": 30,
+        "samples": 21,
+        "uptime_pct": 70.0,
+        "streak_days": 0
+      },
+      "upstream": null,
+      "note": null,
+      "score": 5.8,
+      "verdict": "needs_review",
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "api2d-com",
@@ -6782,7 +6666,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 138,
+      "took_ms": 307,
       "has_api": false,
       "probe": {
         "status": 200,
@@ -6791,15 +6675,15 @@
       },
       "uptime": {
         "window_days": 30,
-        "samples": 22,
-        "uptime_pct": 73.3,
+        "samples": 23,
+        "uptime_pct": 76.7,
         "streak_days": 0
       },
       "upstream": null,
       "note": null,
       "score": 5.7,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "api-claude-code-top",
@@ -6814,7 +6698,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 175,
+      "took_ms": 177,
       "has_api": false,
       "probe": {
         "status": 200,
@@ -6831,7 +6715,7 @@
       "note": null,
       "score": 5.6,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     },
     {
       "slug": "nextweb-fun",
@@ -6846,7 +6730,7 @@
       "engine": null,
       "reachable": true,
       "http_status": 200,
-      "took_ms": 377,
+      "took_ms": 280,
       "has_api": false,
       "probe": {
         "status": 200,
@@ -6855,15 +6739,15 @@
       },
       "uptime": {
         "window_days": 30,
-        "samples": 17,
-        "uptime_pct": 56.7,
+        "samples": 18,
+        "uptime_pct": 60.0,
         "streak_days": 0
       },
       "upstream": null,
       "note": null,
       "score": 5.6,
       "verdict": "needs_review",
-      "last_verified": "2026-11-17"
+      "last_verified": "2026-11-18"
     }
   ]
 }
